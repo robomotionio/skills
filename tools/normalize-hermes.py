@@ -84,11 +84,54 @@ def normalize_file(path: Path) -> bool:
     return True
 
 
+FORBIDDEN_LICENSE_MARKERS = (
+    "Anthropic, PBC. All rights reserved",
+    # Add more proprietary-license markers here as we discover them.
+)
+
+
+def find_forbidden_licenses(root: Path) -> list[Path]:
+    """Return any LICENSE-like file inside the tree that we are not
+    allowed to redistribute.
+
+    Hermes upstream occasionally re-bundles vendor skills carrying
+    proprietary licenses (e.g. an Anthropic skill copied verbatim).
+    We can't ship those — and frontmatter normalization would silently
+    paper over the conflict, so we scan for the marker text directly.
+    """
+    hits = []
+    for p in root.rglob("*"):
+        if not p.is_file():
+            continue
+        name = p.name.upper()
+        if not (name.startswith("LICENSE") or name.startswith("COPYING")
+                or name.startswith("NOTICE")):
+            continue
+        try:
+            text = p.read_text(encoding="utf-8", errors="replace")
+        except OSError:
+            continue
+        if any(marker in text for marker in FORBIDDEN_LICENSE_MARKERS):
+            hits.append(p)
+    return hits
+
+
 def main() -> int:
     repo_root = Path(__file__).resolve().parent.parent
     hermes_root = repo_root / "hermes"
     if not hermes_root.is_dir():
         sys.exit(f"no /hermes/ at {hermes_root}")
+
+    forbidden = find_forbidden_licenses(hermes_root)
+    if forbidden:
+        print("ERROR: forbidden-license content found under hermes/:",
+              file=sys.stderr)
+        for p in forbidden:
+            rel = p.relative_to(repo_root)
+            print(f"  {rel}", file=sys.stderr)
+        print("Remove the containing skill directory before re-running.",
+              file=sys.stderr)
+        return 2
 
     changed = 0
     total = 0
