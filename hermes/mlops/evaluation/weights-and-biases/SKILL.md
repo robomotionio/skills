@@ -1,16 +1,28 @@
 ---
 name: weights-and-biases
-description: Track ML experiments with automatic logging, visualize training in real-time, optimize hyperparameters with sweeps, and manage model registry with W&B - collaborative MLOps platform
+description: Track ML experiments with automatic logging, visualize training in real-time,
+  optimize hyperparameters with sweeps, and manage model registry with W&B - collaborative
+  MLOps platform
 version: 1.0.0
-author: Orchestra Research
+author: hermes
 license: MIT
-dependencies: [wandb]
+dependencies:
+- wandb
 metadata:
   hermes:
-    tags: [MLOps, Weights And Biases, WandB, Experiment Tracking, Hyperparameter Tuning, Model Registry, Collaboration, Real-Time Visualization, PyTorch, TensorFlow, HuggingFace]
-
+    tags:
+    - MLOps
+    - Weights And Biases
+    - WandB
+    - Experiment Tracking
+    - Hyperparameter Tuning
+    - Model Registry
+    - Collaboration
+    - Real-Time Visualization
+    - PyTorch
+    - TensorFlow
+    - HuggingFace
 ---
-
 # Weights & Biases: ML Experiment Tracking & MLOps
 
 ## When to Use This Skill

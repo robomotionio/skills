@@ -1,8 +1,10 @@
 ---
 name: obsidian
 description: Read, search, and create notes in the Obsidian vault.
+version: 1.0.0
+author: hermes
+license: MIT
 ---
-
 # Obsidian Vault
 
 **Location:** Set via `OBSIDIAN_VAULT_PATH` environment variable (e.g. in `~/.hermes/.env`).

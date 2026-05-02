@@ -1,15 +1,30 @@
 ---
 name: design-md
-description: Author, validate, diff, and export DESIGN.md files — Google's open-source format spec that gives coding agents a persistent, structured understanding of a design system (tokens + rationale in one file). Use when building a design system, porting style rules between projects, generating UI with consistent brand, or auditing accessibility/contrast.
+description: Author, validate, diff, and export DESIGN.md files — Google's open-source
+  format spec that gives coding agents a persistent, structured understanding of a
+  design system (tokens + rationale in one file). Use when building a design system,
+  porting style rules between projects, generating UI with consistent brand, or auditing
+  accessibility/contrast.
 version: 1.0.0
-author: Hermes Agent
+author: hermes
 license: MIT
 metadata:
   hermes:
-    tags: [design, design-system, tokens, ui, accessibility, wcag, tailwind, dtcg, google]
-    related_skills: [popular-web-designs, excalidraw, architecture-diagram]
+    tags:
+    - design
+    - design-system
+    - tokens
+    - ui
+    - accessibility
+    - wcag
+    - tailwind
+    - dtcg
+    - google
+    related_skills:
+    - popular-web-designs
+    - excalidraw
+    - architecture-diagram
 ---
-
 # DESIGN.md Skill
 
 DESIGN.md is Google's open spec (Apache-2.0, `google-labs-code/design.md`) for

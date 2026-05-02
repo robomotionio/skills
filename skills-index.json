@@ -18,7 +18,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT",
       "prerequisites": {
         "commands": [
@@ -42,7 +42,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT",
       "prerequisites": {
         "commands": [
@@ -67,7 +67,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -86,7 +86,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT",
       "prerequisites": {
         "commands": [
@@ -112,7 +112,7 @@
         "llm"
       ],
       "version": "2.2.0",
-      "author": "Hermes Agent + Teknium",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -131,7 +131,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -153,7 +153,7 @@
         "llm"
       ],
       "version": "2.0.0",
-      "author": "Hermes Agent + Teknium",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -172,7 +172,7 @@
         "llm"
       ],
       "version": "1.2.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -193,7 +193,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Cocoon AI (hello@cocoon-ai.com), ported by Hermes Agent",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -217,7 +217,7 @@
         "llm"
       ],
       "version": "4.0.0",
-      "author": "0xbyt4, Hermes Agent",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -228,7 +228,10 @@
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "hermes",
+      "license": "MIT"
     },
     {
       "name": "baoyu-comic",
@@ -245,7 +248,7 @@
         "llm"
       ],
       "version": "1.56.1",
-      "author": "宝玉 (JimLiu)",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -263,7 +266,7 @@
         "llm"
       ],
       "version": "1.56.1",
-      "author": "宝玉 (JimLiu)",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -282,7 +285,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "SHL0MS",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -305,7 +308,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -325,7 +328,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -337,7 +340,9 @@
         "hermes",
         "llm"
       ],
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "author": "hermes",
+      "license": "MIT"
     },
     {
       "name": "p5js",
@@ -358,7 +363,9 @@
         "hermes",
         "llm"
       ],
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "author": "hermes",
+      "license": "MIT"
     },
     {
       "name": "pixel-art",
@@ -380,7 +387,7 @@
         "llm"
       ],
       "version": "2.0.0",
-      "author": "dodo-reach",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -401,7 +408,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Hermes Agent + Teknium (design systems sourced from VoltAgent/awesome-design-md)",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -419,7 +426,10 @@
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "hermes",
+      "license": "MIT"
     },
     {
       "name": "jupyter-live-kernel",
@@ -438,7 +448,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -457,7 +467,9 @@
         "hermes",
         "llm"
       ],
-      "version": "1.1.0"
+      "version": "1.1.0",
+      "author": "hermes",
+      "license": "MIT"
     },
     {
       "name": "himalaya",
@@ -475,7 +487,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "community",
+      "author": "hermes",
       "license": "MIT",
       "prerequisites": {
         "commands": [
@@ -498,7 +510,10 @@
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "hermes",
+      "license": "MIT"
     },
     {
       "name": "pokemon-player",
@@ -515,7 +530,10 @@
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "hermes",
+      "license": "MIT"
     },
     {
       "name": "codebase-inspection",
@@ -534,7 +552,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT",
       "prerequisites": {
         "commands": [
@@ -559,7 +577,7 @@
         "llm"
       ],
       "version": "1.1.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -578,7 +596,7 @@
         "llm"
       ],
       "version": "1.1.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -597,7 +615,7 @@
         "llm"
       ],
       "version": "1.1.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -617,7 +635,7 @@
         "llm"
       ],
       "version": "1.1.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -637,7 +655,7 @@
         "llm"
       ],
       "version": "1.1.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -654,7 +672,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -673,7 +691,7 @@
         "llm"
       ],
       "version": "1.1.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT",
       "prerequisites": {
         "env_vars": [
@@ -703,7 +721,9 @@
         "hermes",
         "llm"
       ],
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "author": "hermes",
+      "license": "MIT"
     },
     {
       "name": "songsee",
@@ -721,7 +741,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "community",
+      "author": "hermes",
       "license": "MIT",
       "prerequisites": {
         "commands": [
@@ -737,7 +757,10 @@
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "hermes",
+      "license": "MIT"
     },
     {
       "name": "evaluating-llms-harness",
@@ -760,7 +783,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Orchestra Research",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -785,7 +808,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Orchestra Research",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -805,7 +828,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Hugging Face",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -830,7 +853,7 @@
         "llm"
       ],
       "version": "2.1.2",
-      "author": "Orchestra Research",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -854,7 +877,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Orchestra Research",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -877,7 +900,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Orchestra Research",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -896,7 +919,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Orchestra Research",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -915,7 +938,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Orchestra Research",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -939,7 +962,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Orchestra Research",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -966,7 +989,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Orchestra Research",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -991,7 +1014,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Orchestra Research",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -1016,7 +1039,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Orchestra Research",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -1027,7 +1050,10 @@
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "hermes",
+      "license": "MIT"
     },
     {
       "name": "google-workspace",
@@ -1049,7 +1075,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Nous Research",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -1069,7 +1095,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT",
       "prerequisites": {
         "env_vars": [
@@ -1103,7 +1129,7 @@
         "llm"
       ],
       "version": "1.2.0",
-      "author": "Mibayy",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -1122,7 +1148,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "community",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -1142,7 +1168,7 @@
         "llm"
       ],
       "version": "2.3.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -1154,6 +1180,8 @@
         "hermes",
         "llm"
       ],
+      "version": "1.0.0",
+      "author": "hermes",
       "license": "Proprietary. LICENSE.txt has complete terms"
     },
     {
@@ -1173,7 +1201,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -1191,7 +1219,7 @@
         "llm"
       ],
       "version": "2.0.0",
-      "author": "JulienTant (fork of Hyaxia/blogwatcher)",
+      "author": "hermes",
       "license": "MIT",
       "prerequisites": {
         "commands": [
@@ -1216,7 +1244,7 @@
         "llm"
       ],
       "version": "2.1.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -1244,7 +1272,7 @@
         "llm"
       ],
       "version": "1.1.0",
-      "author": "Orchestra Research",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -1263,7 +1291,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "community",
+      "author": "hermes",
       "license": "MIT",
       "prerequisites": {
         "commands": [
@@ -1287,7 +1315,7 @@
         "llm"
       ],
       "version": "1.1.1",
-      "author": "xdevplatform + openclaw + Hermes Agent",
+      "author": "hermes",
       "license": "MIT",
       "prerequisites": {
         "commands": [
@@ -1310,7 +1338,7 @@
         "llm"
       ],
       "version": "1.0.0",
-      "author": "Hermes Agent",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -1330,7 +1358,7 @@
         "llm"
       ],
       "version": "2.0.0",
-      "author": "Hermes Agent (adapted from obra/superpowers + MorAlekss)",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -1349,7 +1377,7 @@
         "llm"
       ],
       "version": "1.1.0",
-      "author": "Hermes Agent (adapted from obra/superpowers)",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -1368,7 +1396,7 @@
         "llm"
       ],
       "version": "1.1.0",
-      "author": "Hermes Agent (adapted from obra/superpowers)",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -1387,7 +1415,7 @@
         "llm"
       ],
       "version": "1.1.0",
-      "author": "Hermes Agent (adapted from obra/superpowers)",
+      "author": "hermes",
       "license": "MIT"
     },
     {
@@ -1406,7 +1434,7 @@
         "llm"
       ],
       "version": "1.1.0",
-      "author": "Hermes Agent (adapted from obra/superpowers)",
+      "author": "hermes",
       "license": "MIT"
     },
     {

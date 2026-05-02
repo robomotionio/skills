@@ -1,15 +1,24 @@
 ---
 name: github-pr-workflow
-description: Full pull request lifecycle — create branches, commit changes, open PRs, monitor CI status, auto-fix failures, and merge. Works with gh CLI or falls back to git + GitHub REST API via curl.
+description: Full pull request lifecycle — create branches, commit changes, open PRs,
+  monitor CI status, auto-fix failures, and merge. Works with gh CLI or falls back
+  to git + GitHub REST API via curl.
 version: 1.1.0
-author: Hermes Agent
+author: hermes
 license: MIT
 metadata:
   hermes:
-    tags: [GitHub, Pull-Requests, CI/CD, Git, Automation, Merge]
-    related_skills: [github-auth, github-code-review]
+    tags:
+    - GitHub
+    - Pull-Requests
+    - CI/CD
+    - Git
+    - Automation
+    - Merge
+    related_skills:
+    - github-auth
+    - github-code-review
 ---
-
 # GitHub Pull Request Workflow
 
 Complete guide for managing the PR lifecycle. Each section shows the `gh` way first, then the `git` + `curl` fallback for machines without `gh`.

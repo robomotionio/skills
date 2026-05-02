@@ -1,12 +1,21 @@
 ---
 name: webhook-subscriptions
-description: Create and manage webhook subscriptions for event-driven agent activation, or for direct push notifications (zero LLM cost). Use when the user wants external services to trigger agent runs OR push notifications to chats.
+description: Create and manage webhook subscriptions for event-driven agent activation,
+  or for direct push notifications (zero LLM cost). Use when the user wants external
+  services to trigger agent runs OR push notifications to chats.
 version: 1.1.0
+author: hermes
+license: MIT
 metadata:
   hermes:
-    tags: [webhook, events, automation, integrations, notifications, push]
+    tags:
+    - webhook
+    - events
+    - automation
+    - integrations
+    - notifications
+    - push
 ---
-
 # Webhook Subscriptions
 
 Create dynamic webhook subscriptions so external services (GitHub, GitLab, Stripe, CI/CD, IoT sensors, monitoring tools) can trigger Hermes agent runs by POSTing events to a URL.

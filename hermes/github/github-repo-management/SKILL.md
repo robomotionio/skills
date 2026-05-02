@@ -1,15 +1,25 @@
 ---
 name: github-repo-management
-description: Clone, create, fork, configure, and manage GitHub repositories. Manage remotes, secrets, releases, and workflows. Works with gh CLI or falls back to git + GitHub REST API via curl.
+description: Clone, create, fork, configure, and manage GitHub repositories. Manage
+  remotes, secrets, releases, and workflows. Works with gh CLI or falls back to git
+  + GitHub REST API via curl.
 version: 1.1.0
-author: Hermes Agent
+author: hermes
 license: MIT
 metadata:
   hermes:
-    tags: [GitHub, Repositories, Git, Releases, Secrets, Configuration]
-    related_skills: [github-auth, github-pr-workflow, github-issues]
+    tags:
+    - GitHub
+    - Repositories
+    - Git
+    - Releases
+    - Secrets
+    - Configuration
+    related_skills:
+    - github-auth
+    - github-pr-workflow
+    - github-issues
 ---
-
 # GitHub Repository Management
 
 Create, clone, fork, configure, and manage GitHub repositories. Each section shows `gh` first, then the `git` + `curl` fallback.

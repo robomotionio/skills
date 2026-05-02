@@ -1,15 +1,23 @@
 ---
 name: github-issues
-description: Create, manage, triage, and close GitHub issues. Search existing issues, add labels, assign people, and link to PRs. Works with gh CLI or falls back to git + GitHub REST API via curl.
+description: Create, manage, triage, and close GitHub issues. Search existing issues,
+  add labels, assign people, and link to PRs. Works with gh CLI or falls back to git
+  + GitHub REST API via curl.
 version: 1.1.0
-author: Hermes Agent
+author: hermes
 license: MIT
 metadata:
   hermes:
-    tags: [GitHub, Issues, Project-Management, Bug-Tracking, Triage]
-    related_skills: [github-auth, github-pr-workflow]
+    tags:
+    - GitHub
+    - Issues
+    - Project-Management
+    - Bug-Tracking
+    - Triage
+    related_skills:
+    - github-auth
+    - github-pr-workflow
 ---
-
 # GitHub Issues Management
 
 Create, search, triage, and manage GitHub issues. Each section shows `gh` first, then the `curl` fallback.

@@ -1,17 +1,26 @@
 ---
 name: linear
-description: Manage Linear issues, projects, and teams via the GraphQL API. Create, update, search, and organize issues. Uses API key auth (no OAuth needed). All operations via curl — no dependencies.
+description: Manage Linear issues, projects, and teams via the GraphQL API. Create,
+  update, search, and organize issues. Uses API key auth (no OAuth needed). All operations
+  via curl — no dependencies.
 version: 1.0.0
-author: Hermes Agent
+author: hermes
 license: MIT
 prerequisites:
-  env_vars: [LINEAR_API_KEY]
-  commands: [curl]
+  env_vars:
+  - LINEAR_API_KEY
+  commands:
+  - curl
 metadata:
   hermes:
-    tags: [Linear, Project Management, Issues, GraphQL, API, Productivity]
+    tags:
+    - Linear
+    - Project Management
+    - Issues
+    - GraphQL
+    - API
+    - Productivity
 ---
-
 # Linear — Issue & Project Management
 
 Manage Linear issues, projects, and teams directly via the GraphQL API using `curl`. No MCP server, no OAuth flow, no extra dependencies.

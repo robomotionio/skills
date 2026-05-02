@@ -1,15 +1,26 @@
 ---
 name: claude-code
-description: Delegate coding tasks to Claude Code (Anthropic's CLI agent). Use for building features, refactoring, PR reviews, and iterative coding. Requires the claude CLI installed.
+description: Delegate coding tasks to Claude Code (Anthropic's CLI agent). Use for
+  building features, refactoring, PR reviews, and iterative coding. Requires the claude
+  CLI installed.
 version: 2.2.0
-author: Hermes Agent + Teknium
+author: hermes
 license: MIT
 metadata:
   hermes:
-    tags: [Coding-Agent, Claude, Anthropic, Code-Review, Refactoring, PTY, Automation]
-    related_skills: [codex, hermes-agent, opencode]
+    tags:
+    - Coding-Agent
+    - Claude
+    - Anthropic
+    - Code-Review
+    - Refactoring
+    - PTY
+    - Automation
+    related_skills:
+    - codex
+    - hermes-agent
+    - opencode
 ---
-
 # Claude Code — Hermes Orchestration Guide
 
 Delegate coding tasks to [Claude Code](https://code.claude.com/docs/en/cli-reference) (Anthropic's autonomous coding agent CLI) via the Hermes terminal. Claude Code v2.x can read files, write code, run shell commands, spawn subagents, and manage git workflows autonomously.

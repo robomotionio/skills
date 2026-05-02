@@ -1,20 +1,29 @@
 ---
 name: songwriting-and-ai-music
-description: >
-  Songwriting craft, AI music generation prompts (Suno focus), parody/adaptation
-  techniques, phonetic tricks, and lessons learned. These are tools and ideas,
-  not rules. Break any of them when the art calls for it.
-tags: [songwriting, music, suno, parody, lyrics, creative]
-triggers:
-  - writing a song
-  - song lyrics
-  - music prompt
-  - suno prompt
-  - parody song
-  - adapting a song
-  - AI music generation
----
+description: 'Songwriting craft, AI music generation prompts (Suno focus), parody/adaptation
+  techniques, phonetic tricks, and lessons learned. These are tools and ideas, not
+  rules. Break any of them when the art calls for it.
 
+  '
+version: 1.0.0
+author: hermes
+license: MIT
+tags:
+- songwriting
+- music
+- suno
+- parody
+- lyrics
+- creative
+triggers:
+- writing a song
+- song lyrics
+- music prompt
+- suno prompt
+- parody song
+- adapting a song
+- AI music generation
+---
 # Songwriting & AI Music Generation
 
 Everything here is a GUIDELINE, not a rule. Art breaks rules on purpose.

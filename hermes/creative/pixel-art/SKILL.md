@@ -1,17 +1,29 @@
 ---
 name: pixel-art
-description: Convert images into retro pixel art with hardware-accurate palettes (NES, Game Boy, PICO-8, C64, etc.), and animate them into short videos. Presets cover arcade, SNES, and 10+ era-correct looks. Use `clarify` to let the user pick a style before generating.
+description: Convert images into retro pixel art with hardware-accurate palettes (NES,
+  Game Boy, PICO-8, C64, etc.), and animate them into short videos. Presets cover
+  arcade, SNES, and 10+ era-correct looks. Use `clarify` to let the user pick a style
+  before generating.
 version: 2.0.0
-author: dodo-reach
+author: hermes
 license: MIT
 metadata:
   hermes:
-    tags: [creative, pixel-art, arcade, snes, nes, gameboy, retro, image, video]
+    tags:
+    - creative
+    - pixel-art
+    - arcade
+    - snes
+    - nes
+    - gameboy
+    - retro
+    - image
+    - video
     category: creative
     credits:
-      - "Hardware palettes and animation loops ported from Synero/pixel-art-studio (MIT) — https://github.com/Synero/pixel-art-studio"
+    - Hardware palettes and animation loops ported from Synero/pixel-art-studio (MIT)
+      — https://github.com/Synero/pixel-art-studio
 ---
-
 # Pixel Art
 
 Convert any image into retro pixel art, then optionally animate it into a short

@@ -1,21 +1,52 @@
 ---
 name: research-paper-writing
-title: Research Paper Writing Pipeline
-description: End-to-end pipeline for writing ML/AI research papers — from experiment design through analysis, drafting, revision, and submission. Covers NeurIPS, ICML, ICLR, ACL, AAAI, COLM. Integrates automated experiment monitoring, statistical analysis, iterative writing, and citation verification.
+description: End-to-end pipeline for writing ML/AI research papers — from experiment
+  design through analysis, drafting, revision, and submission. Covers NeurIPS, ICML,
+  ICLR, ACL, AAAI, COLM. Integrates automated experiment monitoring, statistical analysis,
+  iterative writing, and citation verification.
 version: 1.1.0
-author: Orchestra Research
+author: hermes
 license: MIT
-dependencies: [semanticscholar, arxiv, habanero, requests, scipy, numpy, matplotlib, SciencePlots]
-platforms: [linux, macos]
+title: Research Paper Writing Pipeline
+dependencies:
+- semanticscholar
+- arxiv
+- habanero
+- requests
+- scipy
+- numpy
+- matplotlib
+- SciencePlots
+platforms:
+- linux
+- macos
 metadata:
   hermes:
-    tags: [Research, Paper Writing, Experiments, ML, AI, NeurIPS, ICML, ICLR, ACL, AAAI, COLM, LaTeX, Citations, Statistical Analysis]
+    tags:
+    - Research
+    - Paper Writing
+    - Experiments
+    - ML
+    - AI
+    - NeurIPS
+    - ICML
+    - ICLR
+    - ACL
+    - AAAI
+    - COLM
+    - LaTeX
+    - Citations
+    - Statistical Analysis
     category: research
-    related_skills: [arxiv, ml-paper-writing, subagent-driven-development, plan]
-    requires_toolsets: [terminal, files]
-
+    related_skills:
+    - arxiv
+    - ml-paper-writing
+    - subagent-driven-development
+    - plan
+    requires_toolsets:
+    - terminal
+    - files
 ---
-
 # Research Paper Writing Pipeline
 
 End-to-end pipeline for producing publication-ready ML/AI research papers targeting **NeurIPS, ICML, ICLR, ACL, AAAI, and COLM**. This skill covers the full research lifecycle: experiment design, execution, monitoring, analysis, paper writing, review, revision, and submission.
