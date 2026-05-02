@@ -1,8 +1,18 @@
 ---
-name: "resend"
-description: "Resend email API — send transactional emails, manage contacts, audiences, and domains. Supports HTML/text emails, batch sending, and domain verification via `robomotion resend`. Do NOT use for Gmail, Outlook, SendGrid, or other email services."
+name: resend
+description: Resend email API — send transactional emails, manage contacts, audiences,
+  and domains. Supports HTML/text emails, batch sending, and domain verification via
+  `robomotion resend`. Do NOT use for Gmail, Outlook, SendGrid, or other email services.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- email
+- resend
+- transactional
+- api
+- communication
 ---
-
 # Resend
 
 The `robomotion resend` CLI connects to Resend for transactional email delivery. It sends emails (HTML and text), manages contacts and audiences, handles domain verification, and supports batch email operations.

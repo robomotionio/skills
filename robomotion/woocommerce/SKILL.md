@@ -1,8 +1,19 @@
 ---
-name: "woocommerce"
-description: "WooCommerce — manage products, orders, customers, coupons, and categories in WordPress-based online stores. Supports full ecommerce operations via `robomotion woocommerce`. Do NOT use for Shopify, Magento, or other ecommerce platforms."
+name: woocommerce
+description: WooCommerce — manage products, orders, customers, coupons, and categories
+  in WordPress-based online stores. Supports full ecommerce operations via `robomotion
+  woocommerce`. Do NOT use for Shopify, Magento, or other ecommerce platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- ecommerce
+- woocommerce
+- wordpress
+- products
+- orders
+- store
 ---
-
 # WooCommerce
 
 The `robomotion woocommerce` CLI connects to WooCommerce stores for ecommerce management. It manages products with variations, handles orders and fulfillments, administers customers and coupons, and organizes product categories — covering the full WordPress-based store workflow.

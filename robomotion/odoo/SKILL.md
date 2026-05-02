@@ -1,8 +1,20 @@
 ---
-name: "odoo"
-description: "Odoo ERP — manage contacts, sales orders, invoices, products, leads, and any model via XML-RPC. Supports full ERP operations across all Odoo modules via `robomotion odoo`. Do NOT use for SAP, NetSuite, Salesforce, or other ERP/CRM platforms."
+name: odoo
+description: Odoo ERP — manage contacts, sales orders, invoices, products, leads,
+  and any model via XML-RPC. Supports full ERP operations across all Odoo modules
+  via `robomotion odoo`. Do NOT use for SAP, NetSuite, Salesforce, or other ERP/CRM
+  platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- erp
+- odoo
+- crm
+- sales
+- invoices
+- open-source
 ---
-
 # Odoo
 
 The `robomotion odoo` CLI connects to Odoo ERP via XML-RPC for business management operations. It handles contacts, sales orders, invoices, products, leads, and any Odoo model — supporting create, read, update, delete, and search operations across all modules.

@@ -1,8 +1,19 @@
 ---
-name: "canvas"
-description: "Canvas LMS — manage courses, assignments, users, enrollments, submissions, pages, modules, and announcements. Supports grading, enrollment management, and course content creation via `robomotion canvas`. Do NOT use for Moodle, Google Classroom, Blackboard, or other LMS platforms."
+name: canvas
+description: Canvas LMS — manage courses, assignments, users, enrollments, submissions,
+  pages, modules, and announcements. Supports grading, enrollment management, and
+  course content creation via `robomotion canvas`. Do NOT use for Moodle, Google Classroom,
+  Blackboard, or other LMS platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- lms
+- canvas
+- education
+- courses
+- assignments
 ---
-
 # Canvas LMS
 
 The `robomotion canvas` CLI connects to Canvas LMS for education management. It manages courses, assignments (create/update/delete/grade), user enrollments, wiki pages, modules, and announcements — covering the full lifecycle of course content and student interaction.

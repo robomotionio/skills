@@ -1,8 +1,19 @@
 ---
-name: "nocodb"
-description: "NocoDB — manage tables, records, and databases in NocoDB (open-source Airtable alternative). Supports CRUD, filtering, sorting, and table management via `robomotion nocodb`. Do NOT use for Airtable, Baserow, Google Sheets, or other no-code databases."
+name: nocodb
+description: NocoDB — manage tables, records, and databases in NocoDB (open-source
+  Airtable alternative). Supports CRUD, filtering, sorting, and table management via
+  `robomotion nocodb`. Do NOT use for Airtable, Baserow, Google Sheets, or other no-code
+  databases.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- database
+- nocodb
+- no-code
+- open-source
+- airtable-alternative
 ---
-
 # NocoDB
 
 The `robomotion nocodb` CLI connects to NocoDB for database and record management. It supports listing, creating, updating, and deleting records in tables; filtering and sorting data; and managing table schemas.

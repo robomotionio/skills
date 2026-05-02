@@ -1,8 +1,17 @@
 ---
-name: "gmail"
-description: "Gmail — send, read, search, label, archive, draft, and manage emails and threads. Supports attachments, labels, drafts, and thread operations via `robomotion gmail`. Do NOT use for Outlook, generic SMTP, or non-email messaging."
+name: gmail
+description: Gmail — send, read, search, label, archive, draft, and manage emails
+  and threads. Supports attachments, labels, drafts, and thread operations via `robomotion
+  gmail`. Do NOT use for Outlook, generic SMTP, or non-email messaging.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- email
+- gmail
+- google
+- communication
 ---
-
 # Gmail
 
 The `robomotion gmail` CLI connects to Gmail via the Google API for full email management. It sends, reads, replies to, and searches emails; manages labels and drafts; handles archiving, trash, and read/unread status; downloads attachments; and operates on email threads.

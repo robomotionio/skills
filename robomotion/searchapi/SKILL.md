@@ -1,8 +1,20 @@
 ---
-name: "searchapi"
-description: "SearchAPI — search Google, Bing, YouTube, Google Maps, News, Scholar, Shopping, and more through a unified API. Supports multiple search engines and result types via `robomotion searchapi`. Do NOT use for Serper, Tavily, or direct Google API."
+name: searchapi
+description: SearchAPI — search Google, Bing, YouTube, Google Maps, News, Scholar,
+  Shopping, and more through a unified API. Supports multiple search engines and result
+  types via `robomotion searchapi`. Do NOT use for Serper, Tavily, or direct Google
+  API.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- search
+- searchapi
+- google
+- bing
+- youtube
+- web
 ---
-
 # SearchAPI
 
 The `robomotion searchapi` CLI connects to SearchAPI.io for multi-engine web search. It searches Google, Bing, YouTube, Google Maps, News, Scholar, Shopping, and more through a unified interface with configurable result limits and search parameters.

@@ -1,8 +1,18 @@
 ---
-name: "ollama"
-description: "Ollama local AI — run LLM models locally for text generation, chat, and embeddings. Supports model management, streaming, and multi-turn conversations via `robomotion ollama`. Do NOT use for OpenAI, Claude, Gemini, or other cloud AI services."
+name: ollama
+description: Ollama local AI — run LLM models locally for text generation, chat, and
+  embeddings. Supports model management, streaming, and multi-turn conversations via
+  `robomotion ollama`. Do NOT use for OpenAI, Claude, Gemini, or other cloud AI services.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- ai
+- llm
+- ollama
+- local
+- text-generation
 ---
-
 # Ollama
 
 The `robomotion ollama` CLI connects to a local Ollama instance for running LLMs on your own hardware. It supports text generation, chat completions with history, embedding generation, model listing, and model management (pull/delete).

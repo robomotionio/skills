@@ -1,8 +1,19 @@
 ---
-name: "openrouter"
-description: "OpenRouter unified AI API — access 480+ AI models (Claude, GPT, Gemini, Grok, DeepSeek, etc.) through a single API. Supports text generation, chat, image generation, streaming, and reasoning mode via `robomotion openrouter`. Do NOT use for direct OpenAI, Claude, or Gemini API calls."
+name: openrouter
+description: OpenRouter unified AI API — access 480+ AI models (Claude, GPT, Gemini,
+  Grok, DeepSeek, etc.) through a single API. Supports text generation, chat, image
+  generation, streaming, and reasoning mode via `robomotion openrouter`. Do NOT use
+  for direct OpenAI, Claude, or Gemini API calls.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- ai
+- llm
+- openrouter
+- multi-model
+- text-generation
 ---
-
 # OpenRouter
 
 The `robomotion openrouter` CLI connects to OpenRouter's unified API gateway providing access to 480+ AI models across providers. It supports text generation, chat completions with history, image generation, streaming responses, reasoning mode, and model listing.

@@ -1,8 +1,18 @@
 ---
-name: "mysql"
-description: "MySQL database — execute queries, manage transactions, and perform CRUD operations on MySQL databases. Supports SELECT, INSERT, UPDATE, DELETE, stored procedures, and batch transactions via `robomotion mysql`. Do NOT use for PostgreSQL, MSSQL, MongoDB, or other databases."
+name: mysql
+description: MySQL database — execute queries, manage transactions, and perform CRUD
+  operations on MySQL databases. Supports SELECT, INSERT, UPDATE, DELETE, stored procedures,
+  and batch transactions via `robomotion mysql`. Do NOT use for PostgreSQL, MSSQL,
+  MongoDB, or other databases.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- database
+- mysql
+- sql
+- query
 ---
-
 # MySQL
 
 The `robomotion mysql` CLI connects to MySQL databases for SQL operations. It executes queries and non-query statements, manages transactions with batch support, runs stored procedures, and handles full CRUD workflows.

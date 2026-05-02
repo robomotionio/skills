@@ -1,8 +1,19 @@
 ---
-name: "gateio"
-description: "Gate.io cryptocurrency exchange — trade crypto, check prices, view orderbooks, and manage account balances. Supports market/limit orders, ticker data, and trading pair listing via `robomotion gateio`. Do NOT use for Binance, Coinbase, or other crypto exchanges."
+name: gateio
+description: Gate.io cryptocurrency exchange — trade crypto, check prices, view orderbooks,
+  and manage account balances. Supports market/limit orders, ticker data, and trading
+  pair listing via `robomotion gateio`. Do NOT use for Binance, Coinbase, or other
+  crypto exchanges.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- crypto
+- gateio
+- trading
+- exchange
+- market-data
 ---
-
 # Gate.io
 
 The `robomotion gateio` CLI connects to the Gate.io exchange for cryptocurrency trading and market data. It supports checking spot prices and 24h tickers, viewing orderbooks, placing market and limit orders, and managing account balances.

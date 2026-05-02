@@ -1,8 +1,19 @@
 ---
-name: "vikunja"
-description: "Vikunja — manage projects, tasks, labels, teams, and task assignments in self-hosted Vikunja instances. Supports full task lifecycle including comments, attachments, and team management via `robomotion vikunja`. Do NOT use for Jira, Trello, ClickUp, or other PM tools."
+name: vikunja
+description: Vikunja — manage projects, tasks, labels, teams, and task assignments
+  in self-hosted Vikunja instances. Supports full task lifecycle including comments,
+  attachments, and team management via `robomotion vikunja`. Do NOT use for Jira,
+  Trello, ClickUp, or other PM tools.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- project-management
+- vikunja
+- tasks
+- open-source
+- self-hosted
 ---
-
 # Vikunja
 
 The `robomotion vikunja` CLI connects to Vikunja (open-source task management) for project and task operations. It manages projects, tasks with due dates and priorities, labels, teams, task comments, and attachments — supporting the full task lifecycle.

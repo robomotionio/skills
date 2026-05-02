@@ -1,8 +1,20 @@
 ---
-name: "sharepoint365"
-description: "Microsoft SharePoint 365 — manage sites, lists, list items, document libraries, and files via Microsoft Graph API. Supports site search, list CRUD, and file operations via `robomotion sharepoint365`. Do NOT use for OneDrive personal, Google Drive, or Confluence."
+name: sharepoint365
+description: Microsoft SharePoint 365 — manage sites, lists, list items, document
+  libraries, and files via Microsoft Graph API. Supports site search, list CRUD, and
+  file operations via `robomotion sharepoint365`. Do NOT use for OneDrive personal,
+  Google Drive, or Confluence.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- microsoft
+- sharepoint
+- collaboration
+- office365
+- lists
+- sites
 ---
-
 # Microsoft SharePoint 365
 
 The `robomotion sharepoint365` CLI connects to Microsoft SharePoint 365 via the Graph API for site and content management. It manages sites, lists, list items, document libraries, and files — supporting search, CRUD operations, and file upload/download.

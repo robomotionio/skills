@@ -1,8 +1,19 @@
 ---
-name: "tavily"
-description: "Tavily — AI-powered web search, content extraction, site crawling, and URL mapping. Supports search depth control, domain filtering, and structured content extraction via `robomotion tavily`. Do NOT use for Google Search, Serper, SearchAPI, or Perplexity."
+name: tavily
+description: Tavily — AI-powered web search, content extraction, site crawling, and
+  URL mapping. Supports search depth control, domain filtering, and structured content
+  extraction via `robomotion tavily`. Do NOT use for Google Search, Serper, SearchAPI,
+  or Perplexity.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- search
+- tavily
+- web
+- ai-search
+- extraction
 ---
-
 # Tavily
 
 The `robomotion tavily` CLI connects to Tavily for AI-powered web search and content extraction. It searches the web with relevance scoring, extracts content from URLs, crawls websites to discover pages, and maps site structure — all with configurable depth and domain filtering.

@@ -1,8 +1,19 @@
 ---
-name: "calcom"
-description: "Cal.com scheduling platform — manage bookings, event types, availability slots, and schedules. Supports creating, rescheduling, and canceling bookings via `robomotion calcom`. Do NOT use for Calendly, Google Calendar, Outlook Calendar, or other scheduling tools."
+name: calcom
+description: Cal.com scheduling platform — manage bookings, event types, availability
+  slots, and schedules. Supports creating, rescheduling, and canceling bookings via
+  `robomotion calcom`. Do NOT use for Calendly, Google Calendar, Outlook Calendar,
+  or other scheduling tools.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- scheduling
+- calcom
+- booking
+- events
+- availability
 ---
-
 # Cal.com
 
 The `robomotion calcom` CLI connects to Cal.com for scheduling management. It handles creating and managing bookings, event types with custom durations and buffers, availability schedules with timezone support, and available slot queries.

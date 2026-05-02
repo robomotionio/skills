@@ -1,8 +1,19 @@
 ---
-name: "phantombuster"
-description: "Phantombuster — run web scraping and automation Phantoms for data extraction from social media and websites. Supports Phantom management, execution, and result retrieval via `robomotion phantombuster`. Do NOT use for Apify, direct scraping, or dom parser."
+name: phantombuster
+description: Phantombuster — run web scraping and automation Phantoms for data extraction
+  from social media and websites. Supports Phantom management, execution, and result
+  retrieval via `robomotion phantombuster`. Do NOT use for Apify, direct scraping,
+  or dom parser.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- automation
+- phantombuster
+- scraping
+- data-extraction
+- phantoms
 ---
-
 # Phantombuster
 
 The `robomotion phantombuster` CLI connects to Phantombuster for automated web scraping and data extraction. It launches and manages Phantoms (pre-built automation scripts), tracks execution status, retrieves results, and manages Phantom configuration.

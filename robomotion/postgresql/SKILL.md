@@ -1,8 +1,18 @@
 ---
-name: "postgresql"
-description: "PostgreSQL database — execute SQL queries, manage transactions, and perform CRUD operations. Supports SELECT, INSERT, UPDATE, DELETE, batch transactions, and stored procedures via `robomotion postgresql`. Do NOT use for MySQL, MongoDB, SQLite, or other databases."
+name: postgresql
+description: PostgreSQL database — execute SQL queries, manage transactions, and perform
+  CRUD operations. Supports SELECT, INSERT, UPDATE, DELETE, batch transactions, and
+  stored procedures via `robomotion postgresql`. Do NOT use for MySQL, MongoDB, SQLite,
+  or other databases.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- database
+- postgresql
+- sql
+- query
 ---
-
 # PostgreSQL
 
 The `robomotion postgresql` CLI connects to PostgreSQL databases for SQL operations. It executes queries and non-query statements, manages batch transactions for atomicity, and handles the full range of PostgreSQL SQL operations.

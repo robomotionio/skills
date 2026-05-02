@@ -1,8 +1,17 @@
 ---
-name: "google-sheets"
-description: "Google Sheets — read, write, append, and manage spreadsheet data, sheets, and formatting. Supports cell operations, range reads/writes, and sheet management via `robomotion googlesheets`. Do NOT use for Excel 365, Airtable, or CSV files."
+name: google-sheets
+description: Google Sheets — read, write, append, and manage spreadsheet data, sheets,
+  and formatting. Supports cell operations, range reads/writes, and sheet management
+  via `robomotion googlesheets`. Do NOT use for Excel 365, Airtable, or CSV files.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- google
+- sheets
+- spreadsheet
+- data
 ---
-
 # Google Sheets
 
 The `robomotion googlesheets` CLI connects to Google Sheets API for spreadsheet operations. It reads and writes cell ranges, appends rows, manages worksheets, and handles spreadsheet creation and formatting.

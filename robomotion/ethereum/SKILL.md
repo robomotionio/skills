@@ -1,8 +1,19 @@
 ---
-name: "ethereum"
-description: "Ethereum blockchain client — interact with smart contracts, send transactions, check balances, and monitor blocks/events. Supports ERC-20 tokens, ENS resolution, gas estimation, and event watching via `robomotion ethereum`. Do NOT use for Binance, centralized exchanges, or other blockchains."
+name: ethereum
+description: Ethereum blockchain client — interact with smart contracts, send transactions,
+  check balances, and monitor blocks/events. Supports ERC-20 tokens, ENS resolution,
+  gas estimation, and event watching via `robomotion ethereum`. Do NOT use for Binance,
+  centralized exchanges, or other blockchains.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- crypto
+- ethereum
+- blockchain
+- web3
+- smart-contracts
 ---
-
 # Ethereum
 
 The `robomotion ethereum` CLI connects to the Ethereum blockchain for Web3 operations. It checks ETH and ERC-20 balances, sends transactions, deploys and calls smart contracts, resolves ENS names, estimates gas, watches events, and monitors blocks.

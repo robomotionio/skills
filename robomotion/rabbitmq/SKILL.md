@@ -1,8 +1,19 @@
 ---
-name: "rabbitmq"
-description: "RabbitMQ message broker — publish and consume messages, manage queues and exchanges. Supports message routing, queue binding, and queue management via `robomotion rabbitmq`. Do NOT use for Kafka, Redis pub/sub, SQS, or other message brokers."
+name: rabbitmq
+description: RabbitMQ message broker — publish and consume messages, manage queues
+  and exchanges. Supports message routing, queue binding, and queue management via
+  `robomotion rabbitmq`. Do NOT use for Kafka, Redis pub/sub, SQS, or other message
+  brokers.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- messaging
+- rabbitmq
+- queue
+- broker
+- amqp
 ---
-
 # RabbitMQ
 
 The `robomotion rabbitmq` CLI connects to RabbitMQ for message broker operations. It publishes messages to exchanges, consumes from queues, creates and manages queues and exchanges, and handles queue binding and message routing.

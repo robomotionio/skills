@@ -1,8 +1,19 @@
 ---
-name: "google-speech"
-description: "Google Speech — transcribe audio to text (speech-to-text) and convert text to speech (TTS). Supports multiple languages and audio formats via `robomotion googlespeech`. Do NOT use for OpenAI Whisper, ElevenLabs, or other speech services."
+name: google-speech
+description: Google Speech — transcribe audio to text (speech-to-text) and convert
+  text to speech (TTS). Supports multiple languages and audio formats via `robomotion
+  googlespeech`. Do NOT use for OpenAI Whisper, ElevenLabs, or other speech services.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- google
+- speech
+- transcription
+- tts
+- stt
+- ai
 ---
-
 # Google Speech
 
 The `robomotion googlespeech` CLI connects to Google Cloud Speech APIs for audio transcription and speech synthesis. It transcribes audio files to text and converts text to speech audio files.

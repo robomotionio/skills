@@ -1,8 +1,19 @@
 ---
-name: "zoom"
-description: "Zoom — create and manage meetings, list recordings, and handle meeting participants. Supports meeting scheduling, recording management, and participant tracking via `robomotion zoom`. Do NOT use for Google Meet, Microsoft Teams, or other video platforms."
+name: zoom
+description: Zoom — create and manage meetings, list recordings, and handle meeting
+  participants. Supports meeting scheduling, recording management, and participant
+  tracking via `robomotion zoom`. Do NOT use for Google Meet, Microsoft Teams, or
+  other video platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- communication
+- zoom
+- meetings
+- video
+- conferencing
 ---
-
 # Zoom
 
 The `robomotion zoom` CLI connects to Zoom for meeting and recording management. It creates and schedules meetings, lists upcoming and past meetings, manages recordings, handles participants, and supports meeting lifecycle operations.

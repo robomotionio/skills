@@ -1,8 +1,18 @@
 ---
-name: "twilio"
-description: "Twilio — send SMS/MMS messages, make phone calls, and manage communication resources. Supports messaging, voice calls, and phone number lookup via `robomotion twilio`. Do NOT use for WhatsApp, Telegram, email, or other messaging platforms."
+name: twilio
+description: Twilio — send SMS/MMS messages, make phone calls, and manage communication
+  resources. Supports messaging, voice calls, and phone number lookup via `robomotion
+  twilio`. Do NOT use for WhatsApp, Telegram, email, or other messaging platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- communication
+- twilio
+- sms
+- voice
+- phone
 ---
-
 # Twilio
 
 The `robomotion twilio` CLI connects to Twilio for cloud communications. It sends SMS and MMS messages, initiates phone calls, looks up phone number information, and manages Twilio messaging resources.

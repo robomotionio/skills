@@ -1,8 +1,19 @@
 ---
-name: "elevenlabs-ai"
-description: "ElevenLabs AI speech platform — text-to-speech, speech-to-text, voice cloning, sound effects, and audio isolation. Supports 30+ languages, voice management, and pronunciation dictionaries via `robomotion elevenlabsai`. Do NOT use for OpenAI TTS, Google Speech, Amazon Polly, or other speech services."
+name: elevenlabs-ai
+description: ElevenLabs AI speech platform — text-to-speech, speech-to-text, voice
+  cloning, sound effects, and audio isolation. Supports 30+ languages, voice management,
+  and pronunciation dictionaries via `robomotion elevenlabsai`. Do NOT use for OpenAI
+  TTS, Google Speech, Amazon Polly, or other speech services.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- ai
+- elevenlabs
+- tts
+- speech
+- voice
 ---
-
 # ElevenLabs AI
 
 The `robomotion elevenlabsai` CLI connects to ElevenLabs for AI speech synthesis and processing. It generates natural-sounding speech from text in 30+ languages, transcribes audio, clones voices, creates sound effects, isolates audio, and manages voice libraries and pronunciation dictionaries.

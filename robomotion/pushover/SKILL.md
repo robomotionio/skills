@@ -1,8 +1,19 @@
 ---
-name: "pushover"
-description: "Pushover — send push notifications to Android, iOS, and desktop devices with priority levels, sounds, and attachments. Supports emergency alerts and delivery verification via `robomotion pushover`. Do NOT use for Slack, email, Twilio SMS, or other notification channels."
+name: pushover
+description: Pushover — send push notifications to Android, iOS, and desktop devices
+  with priority levels, sounds, and attachments. Supports emergency alerts and delivery
+  verification via `robomotion pushover`. Do NOT use for Slack, email, Twilio SMS,
+  or other notification channels.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- notifications
+- pushover
+- alerts
+- push
+- mobile
 ---
-
 # Pushover
 
 The `robomotion pushover` CLI sends push notifications via Pushover to mobile and desktop devices. It supports priority levels (including emergency with acknowledgment), custom sounds, URL attachments, and delivery receipt verification.

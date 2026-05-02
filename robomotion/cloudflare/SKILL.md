@@ -1,8 +1,19 @@
 ---
-name: "cloudflare"
-description: "Cloudflare platform — manage DNS records, zones, Workers, KV storage, and R2 buckets. Supports DNS CRUD, Worker deployment, and edge storage operations via `robomotion cloudflare`. Do NOT use for AWS Route53, Azure DNS, or other DNS/CDN providers."
+name: cloudflare
+description: Cloudflare platform — manage DNS records, zones, Workers, KV storage,
+  and R2 buckets. Supports DNS CRUD, Worker deployment, and edge storage operations
+  via `robomotion cloudflare`. Do NOT use for AWS Route53, Azure DNS, or other DNS/CDN
+  providers.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- devops
+- cloudflare
+- dns
+- cdn
+- workers
 ---
-
 # Cloudflare
 
 The `robomotion cloudflare` CLI manages Cloudflare services including DNS records, zones, Workers (deploy/delete), KV namespaces, and R2 object storage. It covers the full lifecycle of DNS management, serverless deployment, and edge storage.

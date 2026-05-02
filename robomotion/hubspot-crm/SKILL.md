@@ -1,8 +1,18 @@
 ---
-name: "hubspot-crm"
-description: "HubSpot CRM — manage contacts, companies, deals, tickets, and products. Supports CRUD, search, associations, and pipeline management via `robomotion hubspot`. Do NOT use for Salesforce, Apollo, Pipedrive, or other CRM systems."
+name: hubspot-crm
+description: HubSpot CRM — manage contacts, companies, deals, tickets, and products.
+  Supports CRUD, search, associations, and pipeline management via `robomotion hubspot`.
+  Do NOT use for Salesforce, Apollo, Pipedrive, or other CRM systems.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- crm
+- hubspot
+- contacts
+- deals
+- sales
 ---
-
 # HubSpot CRM
 
 The `robomotion hubspot` CLI connects to HubSpot CRM for contact, company, deal, and ticket management. It supports creating, reading, updating, and searching CRM objects with property filtering and association management.

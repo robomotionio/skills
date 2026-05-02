@@ -1,8 +1,19 @@
 ---
-name: "google-maps"
-description: "Google Maps — geocode addresses, reverse geocode coordinates, search for places, and get directions. Supports location services via `robomotion googlemaps`. Do NOT use for OpenStreetMap, Mapbox, or other mapping services."
+name: google-maps
+description: Google Maps — geocode addresses, reverse geocode coordinates, search
+  for places, and get directions. Supports location services via `robomotion googlemaps`.
+  Do NOT use for OpenStreetMap, Mapbox, or other mapping services.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- google
+- maps
+- geocoding
+- places
+- directions
+- location
 ---
-
 # Google Maps
 
 The `robomotion googlemaps` CLI connects to Google Maps Platform for geocoding and location services. It converts addresses to coordinates (geocode), coordinates to addresses (reverse geocode), searches for places/businesses, and calculates directions between locations.

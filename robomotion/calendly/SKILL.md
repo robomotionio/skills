@@ -1,8 +1,19 @@
 ---
-name: "calendly"
-description: "Calendly scheduling — list events, manage event types, handle invitees, and configure webhooks. Supports event scheduling, cancellation, and scheduling link creation via `robomotion calendly`. Do NOT use for Cal.com, Google Calendar, Outlook Calendar, or other scheduling tools."
+name: calendly
+description: Calendly scheduling — list events, manage event types, handle invitees,
+  and configure webhooks. Supports event scheduling, cancellation, and scheduling
+  link creation via `robomotion calendly`. Do NOT use for Cal.com, Google Calendar,
+  Outlook Calendar, or other scheduling tools.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- scheduling
+- calendly
+- booking
+- events
+- meetings
 ---
-
 # Calendly
 
 The `robomotion calendly` CLI connects to Calendly for scheduling management. It lists scheduled events and invitees, manages event types, creates single-use scheduling links, cancels meetings, and configures webhook subscriptions for real-time event notifications.

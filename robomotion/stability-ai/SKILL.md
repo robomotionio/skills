@@ -1,8 +1,18 @@
 ---
-name: "stability-ai"
-description: "Stability AI — generate and edit images using Stable Diffusion models. Supports text-to-image, image-to-image, upscaling, and style control via `robomotion stabilityai`. Do NOT use for DALL-E, Leonardo AI, Midjourney, or other image generation services."
+name: stability-ai
+description: Stability AI — generate and edit images using Stable Diffusion models.
+  Supports text-to-image, image-to-image, upscaling, and style control via `robomotion
+  stabilityai`. Do NOT use for DALL-E, Leonardo AI, Midjourney, or other image generation
+  services.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- ai
+- stability-ai
+- image-generation
+- stable-diffusion
 ---
-
 # Stability AI
 
 The `robomotion stabilityai` CLI connects to Stability AI for image generation and editing. It generates images from text prompts using Stable Diffusion models, performs image-to-image transformation, upscales images, and supports various style and quality controls.

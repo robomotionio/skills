@@ -1,8 +1,19 @@
 ---
-name: "shopify"
-description: "Shopify — manage products, orders, customers, inventory, collections, and fulfillments. Supports full ecommerce operations including order processing and inventory tracking via `robomotion shopify`. Do NOT use for WooCommerce, Magento, or other ecommerce platforms."
+name: shopify
+description: Shopify — manage products, orders, customers, inventory, collections,
+  and fulfillments. Supports full ecommerce operations including order processing
+  and inventory tracking via `robomotion shopify`. Do NOT use for WooCommerce, Magento,
+  or other ecommerce platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- ecommerce
+- shopify
+- products
+- orders
+- store
 ---
-
 # Shopify
 
 The `robomotion shopify` CLI connects to Shopify for ecommerce management. It handles products (CRUD with variants), orders (create/fulfill/cancel), customers, inventory levels, collections, and fulfillment tracking — covering the full online store workflow.

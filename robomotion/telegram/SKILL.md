@@ -1,8 +1,17 @@
 ---
-name: "telegram"
-description: "Telegram Bot — send messages, photos, documents, manage chats, and handle updates. Supports inline keyboards, chat management, and file operations via `robomotion telegrambot`. Do NOT use for WhatsApp, Slack, Discord, or other messaging platforms."
+name: telegram
+description: Telegram Bot — send messages, photos, documents, manage chats, and handle
+  updates. Supports inline keyboards, chat management, and file operations via `robomotion
+  telegrambot`. Do NOT use for WhatsApp, Slack, Discord, or other messaging platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- messaging
+- telegram
+- bot
+- chat
 ---
-
 # Telegram Bot
 
 The `robomotion telegrambot` CLI operates a Telegram bot for messaging and chat interaction. It sends text messages, photos, and documents; manages chats and members; handles inline keyboards; and processes incoming updates.

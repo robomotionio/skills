@@ -1,8 +1,19 @@
 ---
-name: "clickup"
-description: "ClickUp project management — manage workspaces, spaces, folders, lists, tasks, and comments. Supports full task lifecycle including creation, updates, assignments, and commenting via `robomotion clickup`. Do NOT use for Jira, Trello, Asana, or other PM tools."
+name: clickup
+description: ClickUp project management — manage workspaces, spaces, folders, lists,
+  tasks, and comments. Supports full task lifecycle including creation, updates, assignments,
+  and commenting via `robomotion clickup`. Do NOT use for Jira, Trello, Asana, or
+  other PM tools.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- project-management
+- clickup
+- tasks
+- workspace
+- productivity
 ---
-
 # ClickUp
 
 The `robomotion clickup` CLI connects to ClickUp for project and task management. It covers the full workspace hierarchy (teams → spaces → folders → lists → tasks) and supports task CRUD, comment management, member listing, and organizational operations.

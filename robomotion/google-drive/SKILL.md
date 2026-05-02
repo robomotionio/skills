@@ -1,8 +1,19 @@
 ---
-name: "google-drive"
-description: "Google Drive — upload, download, list, copy, move, delete, and share files and folders. Supports file search, permission management, and shared drive operations via `robomotion googledrive`. Do NOT use for Dropbox, S3, OneDrive, or local filesystem."
+name: google-drive
+description: Google Drive — upload, download, list, copy, move, delete, and share
+  files and folders. Supports file search, permission management, and shared drive
+  operations via `robomotion googledrive`. Do NOT use for Dropbox, S3, OneDrive, or
+  local filesystem.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- google
+- drive
+- storage
+- cloud
+- files
 ---
-
 # Google Drive
 
 The `robomotion googledrive` CLI connects to Google Drive API for file and folder management. It uploads, downloads, copies, moves, and deletes files; creates folders; searches by name/query; and manages sharing permissions.

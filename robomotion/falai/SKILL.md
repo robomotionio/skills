@@ -1,8 +1,18 @@
 ---
-name: "falai"
-description: "Fal.ai AI model runner — generate images, videos, and audio using cloud-hosted ML models. Supports synchronous and async (queue-based) inference via `robomotion falai`. Do NOT use for OpenAI, Stability AI, Replicate, or other AI inference platforms."
+name: falai
+description: Fal.ai AI model runner — generate images, videos, and audio using cloud-hosted
+  ML models. Supports synchronous and async (queue-based) inference via `robomotion
+  falai`. Do NOT use for OpenAI, Stability AI, Replicate, or other AI inference platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- ai
+- falai
+- image-generation
+- video
+- inference
 ---
-
 # Fal AI
 
 The `robomotion falai` CLI runs AI models hosted on Fal.ai for image generation, video generation, text-to-speech, and other ML tasks. It supports both synchronous execution (wait for result) and async queue-based workflows (submit, poll status, retrieve result).

@@ -1,8 +1,19 @@
 ---
-name: "outlook365"
-description: "Microsoft Outlook 365 — send, read, search, and manage emails, calendar events, and mail folders via Microsoft Graph API. Supports attachments, replies, and event scheduling via `robomotion outlook365`. Do NOT use for Gmail, generic SMTP, or non-Microsoft email."
+name: outlook365
+description: Microsoft Outlook 365 — send, read, search, and manage emails, calendar
+  events, and mail folders via Microsoft Graph API. Supports attachments, replies,
+  and event scheduling via `robomotion outlook365`. Do NOT use for Gmail, generic
+  SMTP, or non-Microsoft email.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- microsoft
+- outlook
+- email
+- office365
+- calendar
 ---
-
 # Microsoft Outlook 365
 
 The `robomotion outlook365` CLI connects to Microsoft Outlook 365 via the Graph API for email and calendar management. It sends, reads, replies to, and searches emails; manages mail folders; handles attachments; and creates, lists, and manages calendar events.

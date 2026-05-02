@@ -1,8 +1,18 @@
 ---
-name: "typeform"
-description: "Typeform — manage forms, collect responses, and analyze submission data. Supports form listing, response retrieval, and form management via `robomotion typeform`. Do NOT use for Google Forms, SurveyMonkey, or other form builders."
+name: typeform
+description: Typeform — manage forms, collect responses, and analyze submission data.
+  Supports form listing, response retrieval, and form management via `robomotion typeform`.
+  Do NOT use for Google Forms, SurveyMonkey, or other form builders.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- forms
+- typeform
+- survey
+- responses
+- data-collection
 ---
-
 # Typeform
 
 The `robomotion typeform` CLI connects to Typeform for form and survey management. It lists forms, retrieves responses with filtering, manages form settings, and handles form lifecycle operations.

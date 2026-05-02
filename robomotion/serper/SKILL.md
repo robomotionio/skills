@@ -1,8 +1,20 @@
 ---
-name: "serper"
-description: "Serper Google Search API — search Google for web, image, video, news, shopping, scholar, places, and autocomplete results. Supports multiple search types and result formats via `robomotion serper`. Do NOT use for SearchAPI, Tavily, or direct Google API."
+name: serper
+description: Serper Google Search API — search Google for web, image, video, news,
+  shopping, scholar, places, and autocomplete results. Supports multiple search types
+  and result formats via `robomotion serper`. Do NOT use for SearchAPI, Tavily, or
+  direct Google API.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- search
+- serper
+- google
+- web
+- images
+- news
 ---
-
 # Serper
 
 The `robomotion serper` CLI connects to Serper's Google Search API for fast, structured search results. It searches Google web, images, videos, news, shopping, scholar, places, and provides autocomplete and related searches.

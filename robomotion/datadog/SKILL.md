@@ -1,8 +1,20 @@
 ---
-name: "datadog"
-description: "Datadog monitoring platform — submit metrics, query logs, manage monitors/alerts, and schedule downtimes. Supports infrastructure monitoring and incident response via `robomotion datadog`. Do NOT use for Sentry, Splunk, Prometheus, or other monitoring tools."
+name: datadog
+description: Datadog monitoring platform — submit metrics, query logs, manage monitors/alerts,
+  and schedule downtimes. Supports infrastructure monitoring and incident response
+  via `robomotion datadog`. Do NOT use for Sentry, Splunk, Prometheus, or other monitoring
+  tools.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- monitoring
+- datadog
+- metrics
+- logs
+- alerts
+- observability
 ---
-
 # Datadog
 
 The `robomotion datadog` CLI connects to Datadog for infrastructure monitoring and alerting. It submits custom metrics, queries logs and events, creates and manages monitors with alert conditions, schedules downtimes, and handles incidents.

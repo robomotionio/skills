@@ -1,8 +1,17 @@
 ---
-name: "jira"
-description: "Jira project management — create, update, search, transition, and comment on issues. Supports JQL search, issue lifecycle, and project management via `robomotion jira`. Do NOT use for Trello, ClickUp, Asana, or other PM tools."
+name: jira
+description: Jira project management — create, update, search, transition, and comment
+  on issues. Supports JQL search, issue lifecycle, and project management via `robomotion
+  jira`. Do NOT use for Trello, ClickUp, Asana, or other PM tools.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- project-management
+- jira
+- issues
+- agile
 ---
-
 # Jira
 
 The `robomotion jira` CLI connects to Jira for issue and project management. It creates, reads, updates, and transitions issues; searches with JQL; adds comments; manages projects and issue types — covering the full issue lifecycle.

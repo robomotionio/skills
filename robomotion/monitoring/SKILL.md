@@ -1,8 +1,19 @@
 ---
-name: "monitoring"
-description: "Uptime monitoring — check website and API endpoint health, ping services, and monitor HTTP status. Supports health checks, response time measurement, and availability tracking via `robomotion monitoring`. Do NOT use for Sentry, Datadog, Splunk, or application-level monitoring."
+name: monitoring
+description: Uptime monitoring — check website and API endpoint health, ping services,
+  and monitor HTTP status. Supports health checks, response time measurement, and
+  availability tracking via `robomotion monitoring`. Do NOT use for Sentry, Datadog,
+  Splunk, or application-level monitoring.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- monitoring
+- uptime
+- health-check
+- api
+- availability
 ---
-
 # Monitoring
 
 The `robomotion monitoring` CLI provides uptime and health monitoring for websites, APIs, and services. It pings endpoints, checks HTTP status codes, measures response times, and tracks service availability.

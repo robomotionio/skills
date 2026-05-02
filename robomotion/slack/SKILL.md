@@ -1,8 +1,18 @@
 ---
-name: "slack"
-description: "Slack — send messages, manage channels, list users, upload files, and receive messages via Socket Mode. Supports channel management and file operations via `robomotion slack`. Do NOT use for Discord, Teams, Telegram, or other messaging platforms."
+name: slack
+description: Slack — send messages, manage channels, list users, upload files, and
+  receive messages via Socket Mode. Supports channel management and file operations
+  via `robomotion slack`. Do NOT use for Discord, Teams, Telegram, or other messaging
+  platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- messaging
+- slack
+- chat
+- communication
 ---
-
 # Slack
 
 The `robomotion slack` CLI connects to Slack workspaces for messaging and channel management. It sends messages to channels, lists channels and users, uploads and deletes files, and receives messages via Socket Mode for real-time interaction.

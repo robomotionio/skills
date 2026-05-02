@@ -1,8 +1,19 @@
 ---
-name: "onenote365"
-description: "Microsoft OneNote 365 — manage notebooks, sections, section groups, and pages via Microsoft Graph API. Supports page creation, content reading, and notebook organization via `robomotion onenote365`. Do NOT use for Notion, Evernote, Google Keep, or other note apps."
+name: onenote365
+description: Microsoft OneNote 365 — manage notebooks, sections, section groups, and
+  pages via Microsoft Graph API. Supports page creation, content reading, and notebook
+  organization via `robomotion onenote365`. Do NOT use for Notion, Evernote, Google
+  Keep, or other note apps.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- microsoft
+- onenote
+- notes
+- office365
+- productivity
 ---
-
 # Microsoft OneNote 365
 
 The `robomotion onenote365` CLI connects to Microsoft OneNote via the Graph API for notebook management. It lists and manages notebooks, section groups, and sections; creates and reads pages with HTML content; and organizes note hierarchies.

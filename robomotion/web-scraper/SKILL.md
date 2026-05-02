@@ -1,8 +1,20 @@
 ---
-name: "web-scraper"
-description: "DOM Parser web scraper — extract data from HTML pages using CSS selectors and XPath queries. Supports structured data extraction, attribute reading, and HTML parsing via `robomotion domparser`. Do NOT use for Apify, Puppeteer, or browser automation."
+name: web-scraper
+description: DOM Parser web scraper — extract data from HTML pages using CSS selectors
+  and XPath queries. Supports structured data extraction, attribute reading, and HTML
+  parsing via `robomotion domparser`. Do NOT use for Apify, Puppeteer, or browser
+  automation.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- web
+- scraping
+- html
+- dom
+- parsing
+- extraction
 ---
-
 # Web Scraper (DOM Parser)
 
 The `robomotion domparser` CLI parses and extracts data from HTML web pages. It loads HTML content, queries elements using CSS selectors or XPath, extracts text and attributes, and outputs structured data from web pages.

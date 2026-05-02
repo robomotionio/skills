@@ -1,8 +1,18 @@
 ---
-name: "sentry"
-description: "Sentry error tracking — monitor application errors and capture events. Supports error reporting, issue listing, and event tracking via `robomotion sentry`. Do NOT use for Datadog, Splunk, New Relic, or other APM platforms."
+name: sentry
+description: Sentry error tracking — monitor application errors and capture events.
+  Supports error reporting, issue listing, and event tracking via `robomotion sentry`.
+  Do NOT use for Datadog, Splunk, New Relic, or other APM platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- monitoring
+- sentry
+- errors
+- debugging
+- observability
 ---
-
 # Sentry
 
 The `robomotion sentry` CLI connects to Sentry for application error tracking. It captures and reports events, monitors errors, and manages issue tracking.

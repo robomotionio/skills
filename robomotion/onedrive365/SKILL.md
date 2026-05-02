@@ -1,8 +1,20 @@
 ---
-name: "onedrive365"
-description: "Microsoft OneDrive 365 — upload, download, list, copy, move, delete, and share files via Microsoft Graph API. Supports folder management, sharing links, and permission control via `robomotion onedrive365`. Do NOT use for Google Drive, Dropbox, S3, or SharePoint document libraries."
+name: onedrive365
+description: Microsoft OneDrive 365 — upload, download, list, copy, move, delete,
+  and share files via Microsoft Graph API. Supports folder management, sharing links,
+  and permission control via `robomotion onedrive365`. Do NOT use for Google Drive,
+  Dropbox, S3, or SharePoint document libraries.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- microsoft
+- onedrive
+- storage
+- cloud
+- files
+- office365
 ---
-
 # Microsoft OneDrive 365
 
 The `robomotion onedrive365` CLI connects to Microsoft OneDrive via the Graph API for file management. It uploads, downloads, lists, copies, moves, and deletes files; creates folders; generates sharing links; and manages file permissions.

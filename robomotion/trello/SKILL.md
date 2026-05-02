@@ -1,8 +1,19 @@
 ---
-name: "trello"
-description: "Trello — manage boards, lists, cards, labels, checklists, and members for visual project management. Supports full card lifecycle including attachments, comments, and checklist items via `robomotion trello`. Do NOT use for Jira, ClickUp, Asana, or other PM tools."
+name: trello
+description: Trello — manage boards, lists, cards, labels, checklists, and members
+  for visual project management. Supports full card lifecycle including attachments,
+  comments, and checklist items via `robomotion trello`. Do NOT use for Jira, ClickUp,
+  Asana, or other PM tools.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- project-management
+- trello
+- boards
+- cards
+- kanban
 ---
-
 # Trello
 
 The `robomotion trello` CLI connects to Trello for visual project management. It manages boards, lists, and cards with full lifecycle support — creating, moving, archiving cards; adding labels, checklists, and attachments; managing members; and handling comments.

@@ -1,8 +1,17 @@
 ---
-name: "pcloud"
-description: "pCloud — upload, download, list, create, delete, and manage files and folders in pCloud storage. Supports file operations and folder management via `robomotion pcloud`. Do NOT use for Dropbox, Google Drive, OneDrive, or other cloud storage."
+name: pcloud
+description: pCloud — upload, download, list, create, delete, and manage files and
+  folders in pCloud storage. Supports file operations and folder management via `robomotion
+  pcloud`. Do NOT use for Dropbox, Google Drive, OneDrive, or other cloud storage.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- storage
+- pcloud
+- cloud
+- files
 ---
-
 # pCloud
 
 The `robomotion pcloud` CLI connects to pCloud for cloud file storage management. It uploads, downloads, lists, and deletes files; creates and manages folders; and handles file operations on pCloud storage.

@@ -1,8 +1,19 @@
 ---
-name: "wikipedia"
-description: "Wikipedia — search articles, retrieve page content, get summaries, and access Wikipedia data. Supports full-text search, page retrieval, and content extraction via `robomotion wikipedia`. Do NOT use for Google Search, web scraping, or other encyclopedias."
+name: wikipedia
+description: Wikipedia — search articles, retrieve page content, get summaries, and
+  access Wikipedia data. Supports full-text search, page retrieval, and content extraction
+  via `robomotion wikipedia`. Do NOT use for Google Search, web scraping, or other
+  encyclopedias.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- reference
+- wikipedia
+- encyclopedia
+- knowledge
+- search
 ---
-
 # Wikipedia
 
 The `robomotion wikipedia` CLI connects to Wikipedia for article search and content retrieval. It searches for articles, retrieves full page content or summaries, and accesses structured Wikipedia data.

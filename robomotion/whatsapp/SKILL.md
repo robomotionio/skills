@@ -1,8 +1,17 @@
 ---
-name: "whatsapp"
-description: "WhatsApp Business API — send text messages, media, templates, and interactive messages. Supports message sending, contact management, and template messaging via `robomotion whatsapp`. Do NOT use for Telegram, Twilio SMS, or other messaging services."
+name: whatsapp
+description: WhatsApp Business API — send text messages, media, templates, and interactive
+  messages. Supports message sending, contact management, and template messaging via
+  `robomotion whatsapp`. Do NOT use for Telegram, Twilio SMS, or other messaging services.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- messaging
+- whatsapp
+- communication
+- business
 ---
-
 # WhatsApp Business
 
 The `robomotion whatsapp` CLI connects to the WhatsApp Business API for messaging operations. It sends text messages, images, documents, and template messages; manages contacts; and handles interactive message types.

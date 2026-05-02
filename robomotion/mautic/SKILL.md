@@ -1,8 +1,20 @@
 ---
-name: "mautic"
-description: "Mautic marketing automation — manage contacts, companies, segments, campaigns, emails, and forms. Supports lead scoring, campaign automation, and email marketing via `robomotion mautic`. Do NOT use for HubSpot Marketing, Mailchimp, or other marketing platforms."
+name: mautic
+description: Mautic marketing automation — manage contacts, companies, segments, campaigns,
+  emails, and forms. Supports lead scoring, campaign automation, and email marketing
+  via `robomotion mautic`. Do NOT use for HubSpot Marketing, Mailchimp, or other marketing
+  platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- marketing
+- mautic
+- automation
+- campaigns
+- contacts
+- open-source
 ---
-
 # Mautic
 
 The `robomotion mautic` CLI connects to Mautic (open-source marketing automation) for contact and campaign management. It handles contacts, companies, segments, campaigns, email templates, forms, and notes — covering the full marketing automation workflow.

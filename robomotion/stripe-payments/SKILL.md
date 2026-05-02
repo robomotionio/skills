@@ -1,8 +1,17 @@
 ---
-name: "stripe-payments"
-description: "Stripe — manage payments, customers, subscriptions, invoices, and products. Supports charge creation, refunds, and billing lifecycle via `robomotion stripe`. Do NOT use for PayPal, Square, or other payment processors."
+name: stripe-payments
+description: Stripe — manage payments, customers, subscriptions, invoices, and products.
+  Supports charge creation, refunds, and billing lifecycle via `robomotion stripe`.
+  Do NOT use for PayPal, Square, or other payment processors.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- payments
+- stripe
+- billing
+- subscriptions
 ---
-
 # Stripe Payments
 
 The `robomotion stripe` CLI connects to Stripe for payment processing and billing management. It creates charges, manages customers and subscriptions, handles invoices and refunds, and manages products and pricing.

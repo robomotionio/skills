@@ -1,8 +1,18 @@
 ---
-name: "sqlite"
-description: "SQLite — execute queries and manage embedded SQLite database files. Supports SELECT, INSERT, UPDATE, DELETE, batch transactions, and local database operations via `robomotion sqlite`. Do NOT use for PostgreSQL, MySQL, or server-based databases."
+name: sqlite
+description: SQLite — execute queries and manage embedded SQLite database files. Supports
+  SELECT, INSERT, UPDATE, DELETE, batch transactions, and local database operations
+  via `robomotion sqlite`. Do NOT use for PostgreSQL, MySQL, or server-based databases.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- database
+- sqlite
+- sql
+- embedded
+- local
 ---
-
 # SQLite
 
 The `robomotion sqlite` CLI works with local SQLite database files for embedded SQL operations. It executes queries and non-query statements, manages batch transactions, and handles schema operations on `.db` files without requiring a database server.

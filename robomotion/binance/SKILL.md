@@ -1,8 +1,19 @@
 ---
-name: "binance"
-description: "Binance cryptocurrency exchange — trade crypto, check prices, view balances, and access market data. Supports limit/market/stop orders, price history, deposits, and withdrawals via `robomotion binance`. Do NOT use for Gate.io, Coinbase, or other crypto exchanges."
+name: binance
+description: Binance cryptocurrency exchange — trade crypto, check prices, view balances,
+  and access market data. Supports limit/market/stop orders, price history, deposits,
+  and withdrawals via `robomotion binance`. Do NOT use for Gate.io, Coinbase, or other
+  crypto exchanges.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- crypto
+- binance
+- trading
+- exchange
+- market-data
 ---
-
 # Binance
 
 The `robomotion binance` CLI connects to the Binance exchange for cryptocurrency trading and market data. It supports placing limit, market, and stop-loss orders; checking balances and prices; downloading price history as CSV; and viewing deposits, withdrawals, and recent trades.

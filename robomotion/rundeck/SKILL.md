@@ -1,8 +1,18 @@
 ---
-name: "rundeck"
-description: "Rundeck — execute automation jobs, manage projects, and monitor job executions. Supports runbook automation and job scheduling via `robomotion rundeck`. Do NOT use for Ansible, Jenkins, GitHub Actions, or other CI/CD tools."
+name: rundeck
+description: Rundeck — execute automation jobs, manage projects, and monitor job executions.
+  Supports runbook automation and job scheduling via `robomotion rundeck`. Do NOT
+  use for Ansible, Jenkins, GitHub Actions, or other CI/CD tools.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- devops
+- rundeck
+- automation
+- jobs
+- runbook
 ---
-
 # Rundeck
 
 The `robomotion rundeck` CLI connects to Rundeck for runbook automation and job execution. It lists projects, executes jobs with parameters, and monitors execution status.

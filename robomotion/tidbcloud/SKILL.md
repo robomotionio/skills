@@ -1,8 +1,18 @@
 ---
-name: "tidbcloud"
-description: "TiDB Cloud — execute SQL queries and manage data in distributed TiDB Cloud databases. Supports MySQL-compatible SQL operations via `robomotion tidbcloud`. Do NOT use for MySQL, PostgreSQL, CockroachDB, or other databases."
+name: tidbcloud
+description: TiDB Cloud — execute SQL queries and manage data in distributed TiDB
+  Cloud databases. Supports MySQL-compatible SQL operations via `robomotion tidbcloud`.
+  Do NOT use for MySQL, PostgreSQL, CockroachDB, or other databases.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- database
+- tidbcloud
+- distributed-sql
+- cloud
+- mysql-compatible
 ---
-
 # TiDB Cloud
 
 The `robomotion tidbcloud` CLI connects to TiDB Cloud (distributed MySQL-compatible database) for SQL operations. It executes queries, runs non-query statements, and manages transactions on TiDB Cloud instances.

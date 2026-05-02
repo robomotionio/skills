@@ -1,8 +1,19 @@
 ---
-name: "airtable"
-description: "Airtable database client — manage records, tables, and bases in Airtable. Supports CRUD operations, formula-based search, bulk operations, and comments via `robomotion airtable`. Do NOT use for Google Sheets, Excel, Baserow, NocoDB, or other spreadsheet/database tools."
+name: airtable
+description: Airtable database client — manage records, tables, and bases in Airtable.
+  Supports CRUD operations, formula-based search, bulk operations, and comments via
+  `robomotion airtable`. Do NOT use for Google Sheets, Excel, Baserow, NocoDB, or
+  other spreadsheet/database tools.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- database
+- airtable
+- no-code
+- spreadsheet
+- records
 ---
-
 # Airtable
 
 The `robomotion airtable` CLI connects to Airtable's API to manage bases, tables, and records. It supports listing, creating, updating, deleting records (including bulk operations), searching with formula filters, and managing record comments.

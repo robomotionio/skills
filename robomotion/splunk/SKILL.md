@@ -1,8 +1,19 @@
 ---
-name: "splunk"
-description: "Splunk — search logs, submit events, manage indexes, and run saved searches. Supports SPL queries, event ingestion, and search job management via `robomotion splunk`. Do NOT use for Datadog, Sentry, ELK Stack, or other log platforms."
+name: splunk
+description: Splunk — search logs, submit events, manage indexes, and run saved searches.
+  Supports SPL queries, event ingestion, and search job management via `robomotion
+  splunk`. Do NOT use for Datadog, Sentry, ELK Stack, or other log platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- monitoring
+- splunk
+- logs
+- search
+- analytics
+- siem
 ---
-
 # Splunk
 
 The `robomotion splunk` CLI connects to Splunk for log management and search. It submits events to indexes, runs SPL search queries, manages search jobs, accesses saved searches, and handles index management.

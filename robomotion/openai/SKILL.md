@@ -1,8 +1,19 @@
 ---
-name: "openai"
-description: "OpenAI API — generate text, images, speech, transcriptions, and embeddings using GPT, DALL-E, Whisper, and TTS models. Supports chat completions, vision, function calling, and file management via `robomotion openai`. Do NOT use for Claude, Gemini, or direct LLM conversation."
+name: openai
+description: OpenAI API — generate text, images, speech, transcriptions, and embeddings
+  using GPT, DALL-E, Whisper, and TTS models. Supports chat completions, vision, function
+  calling, and file management via `robomotion openai`. Do NOT use for Claude, Gemini,
+  or direct LLM conversation.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- ai
+- llm
+- openai
+- gpt
+- text-generation
 ---
-
 # OpenAI
 
 The `robomotion openai` CLI calls the OpenAI API for AI operations. It generates text with GPT models (including vision and function calling), creates images with DALL-E/GPT-Image, synthesizes and transcribes audio, generates embeddings, moderates content, and manages files.

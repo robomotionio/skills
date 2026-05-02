@@ -1,8 +1,18 @@
 ---
-name: "pdf"
-description: "PDF processor — create, merge, split, extract text, convert, and manipulate PDF files. Supports page operations, text extraction, and format conversions via `robomotion pdfprocessor`. Do NOT use for Google Docs, Word documents, or image OCR."
+name: pdf
+description: PDF processor — create, merge, split, extract text, convert, and manipulate
+  PDF files. Supports page operations, text extraction, and format conversions via
+  `robomotion pdfprocessor`. Do NOT use for Google Docs, Word documents, or image
+  OCR.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- document
+- pdf
+- extraction
+- generation
 ---
-
 # PDF Processor
 
 The `robomotion pdfprocessor` CLI handles PDF file operations. It creates, merges, splits, extracts text from, and converts PDF files. It supports page-level operations, metadata handling, and various format conversions.

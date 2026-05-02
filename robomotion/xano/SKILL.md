@@ -1,8 +1,18 @@
 ---
-name: "xano"
-description: "Xano — manage database records, search data, and call custom API endpoints on Xano backends. Supports CRUD operations and custom API calls via `robomotion xano`. Do NOT use for Supabase, Firebase, or direct PostgreSQL."
+name: xano
+description: Xano — manage database records, search data, and call custom API endpoints
+  on Xano backends. Supports CRUD operations and custom API calls via `robomotion
+  xano`. Do NOT use for Supabase, Firebase, or direct PostgreSQL.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- backend
+- xano
+- no-code
+- api
+- database
 ---
-
 # Xano
 
 The `robomotion xano` CLI connects to Xano (no-code backend platform) for database and API operations. It queries, creates, updates, and deletes records; searches data with filters; and calls custom API endpoints built in Xano.

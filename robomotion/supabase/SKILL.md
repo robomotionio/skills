@@ -1,8 +1,18 @@
 ---
-name: "supabase"
-description: "Supabase — query tables, manage storage, and call remote procedures on Supabase projects. Supports database CRUD, file storage, and RPC calls via `robomotion supabase`. Do NOT use for Firebase, direct PostgreSQL, or other BaaS platforms."
+name: supabase
+description: Supabase — query tables, manage storage, and call remote procedures on
+  Supabase projects. Supports database CRUD, file storage, and RPC calls via `robomotion
+  supabase`. Do NOT use for Firebase, direct PostgreSQL, or other BaaS platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- database
+- supabase
+- baas
+- storage
+- sql
 ---
-
 # Supabase
 
 The `robomotion supabase` CLI connects to Supabase projects for database and storage operations. It queries and modifies table data with filters, manages files in Supabase storage buckets, and calls server-side remote procedure calls (RPCs).

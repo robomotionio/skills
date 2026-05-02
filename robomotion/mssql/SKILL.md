@@ -1,8 +1,19 @@
 ---
-name: "mssql"
-description: "Microsoft SQL Server — execute queries, stored procedures, and manage transactions on MSSQL databases. Supports SELECT, INSERT, UPDATE, DELETE, and batch operations via `robomotion mssql`. Do NOT use for PostgreSQL, MySQL, Oracle, or other databases."
+name: mssql
+description: Microsoft SQL Server — execute queries, stored procedures, and manage
+  transactions on MSSQL databases. Supports SELECT, INSERT, UPDATE, DELETE, and batch
+  operations via `robomotion mssql`. Do NOT use for PostgreSQL, MySQL, Oracle, or
+  other databases.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- database
+- mssql
+- sql-server
+- microsoft
+- sql
 ---
-
 # Microsoft SQL Server
 
 The `robomotion mssql` CLI connects to Microsoft SQL Server for database operations. It executes SQL queries and non-query statements, manages transactions with batch support, and handles stored procedure execution.

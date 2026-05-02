@@ -1,8 +1,19 @@
 ---
-name: "apollo"
-description: "Apollo.io sales intelligence — search 265M+ contacts, enrich leads, manage contacts/accounts/deals. Supports people search, organization enrichment, and CRM operations via `robomotion apollo`. Do NOT use for HubSpot, Salesforce, or other CRM systems."
+name: apollo
+description: Apollo.io sales intelligence — search 265M+ contacts, enrich leads, manage
+  contacts/accounts/deals. Supports people search, organization enrichment, and CRM
+  operations via `robomotion apollo`. Do NOT use for HubSpot, Salesforce, or other
+  CRM systems.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- crm
+- apollo
+- leads
+- prospecting
+- sales
 ---
-
 # Apollo.io
 
 The `robomotion apollo` CLI connects to Apollo.io's sales intelligence platform. It searches a 265M+ person database by job title, company, and location; enriches contacts and organizations; and manages contacts, accounts, and deals in your Apollo workspace.

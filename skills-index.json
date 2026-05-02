@@ -1428,1091 +1428,2065 @@
       "name": "airtable",
       "path": "robomotion/airtable",
       "description": "Airtable database client — manage records, tables, and bases in Airtable. Supports CRUD operations, formula-based search, bulk operations, and comments via `robomotion airtable`. Do NOT use for Google Sheets, Excel, Baserow, NocoDB, or other spreadsheet/database tools.",
-      "tags": [],
+      "tags": [
+        "database",
+        "airtable",
+        "no-code",
+        "spreadsheet",
+        "records"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "apify",
       "path": "robomotion/apify",
       "description": "Apify web scraping platform — run Apify actors for large-scale crawling and data extraction. Supports actor execution, run monitoring, and dataset retrieval via `robomotion apify`. Do NOT use for simple HTML parsing or non-Apify scraping tools.",
-      "tags": [],
+      "tags": [
+        "automation",
+        "apify",
+        "scraping",
+        "crawling",
+        "actors"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "apollo",
       "path": "robomotion/apollo",
       "description": "Apollo.io sales intelligence — search 265M+ contacts, enrich leads, manage contacts/accounts/deals. Supports people search, organization enrichment, and CRM operations via `robomotion apollo`. Do NOT use for HubSpot, Salesforce, or other CRM systems.",
-      "tags": [],
+      "tags": [
+        "crm",
+        "apollo",
+        "leads",
+        "prospecting",
+        "sales"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "baserow",
       "path": "robomotion/baserow",
       "description": "Baserow open-source database — manage rows, tables, and fields in self-hosted or cloud Baserow instances. Supports CRUD, filtering, sorting, search, and field listing via `robomotion baserow`. Do NOT use for Airtable, NocoDB, Google Sheets, or other no-code databases.",
-      "tags": [],
+      "tags": [
+        "database",
+        "baserow",
+        "no-code",
+        "open-source",
+        "tables"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "binance",
       "path": "robomotion/binance",
       "description": "Binance cryptocurrency exchange — trade crypto, check prices, view balances, and access market data. Supports limit/market/stop orders, price history, deposits, and withdrawals via `robomotion binance`. Do NOT use for Gate.io, Coinbase, or other crypto exchanges.",
-      "tags": [],
+      "tags": [
+        "crypto",
+        "binance",
+        "trading",
+        "exchange",
+        "market-data"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "calcom",
       "path": "robomotion/calcom",
       "description": "Cal.com scheduling platform — manage bookings, event types, availability slots, and schedules. Supports creating, rescheduling, and canceling bookings via `robomotion calcom`. Do NOT use for Calendly, Google Calendar, Outlook Calendar, or other scheduling tools.",
-      "tags": [],
+      "tags": [
+        "scheduling",
+        "calcom",
+        "booking",
+        "events",
+        "availability"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "calendly",
       "path": "robomotion/calendly",
       "description": "Calendly scheduling — list events, manage event types, handle invitees, and configure webhooks. Supports event scheduling, cancellation, and scheduling link creation via `robomotion calendly`. Do NOT use for Cal.com, Google Calendar, Outlook Calendar, or other scheduling tools.",
-      "tags": [],
+      "tags": [
+        "scheduling",
+        "calendly",
+        "booking",
+        "events",
+        "meetings"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "canvas",
       "path": "robomotion/canvas",
       "description": "Canvas LMS — manage courses, assignments, users, enrollments, submissions, pages, modules, and announcements. Supports grading, enrollment management, and course content creation via `robomotion canvas`. Do NOT use for Moodle, Google Classroom, Blackboard, or other LMS platforms.",
-      "tags": [],
+      "tags": [
+        "lms",
+        "canvas",
+        "education",
+        "courses",
+        "assignments"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "claude-ai",
       "path": "robomotion/claude-ai",
       "description": "Anthropic Claude AI — generate text, analyze documents, chat with history, and call tools via Claude models. Supports vision, thinking mode, MCP integration, and function calling via `robomotion claude`. Do NOT use for OpenAI, Gemini, or direct conversation — this runs Claude API calls through the Robomotion CLI.",
-      "tags": [],
+      "tags": [
+        "ai",
+        "llm",
+        "claude",
+        "anthropic",
+        "text-generation"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "clickhouse",
       "path": "robomotion/clickhouse",
       "description": "ClickHouse columnar database — execute analytical SQL queries and batch inserts on ClickHouse. Supports query execution, batch transactions, and non-query operations via `robomotion clickhouse`. Do NOT use for PostgreSQL, MySQL, MongoDB, or other databases.",
-      "tags": [],
+      "tags": [
+        "database",
+        "clickhouse",
+        "analytics",
+        "columnar",
+        "sql"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "clickup",
       "path": "robomotion/clickup",
       "description": "ClickUp project management — manage workspaces, spaces, folders, lists, tasks, and comments. Supports full task lifecycle including creation, updates, assignments, and commenting via `robomotion clickup`. Do NOT use for Jira, Trello, Asana, or other PM tools.",
-      "tags": [],
+      "tags": [
+        "project-management",
+        "clickup",
+        "tasks",
+        "workspace",
+        "productivity"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "cloudflare",
       "path": "robomotion/cloudflare",
       "description": "Cloudflare platform — manage DNS records, zones, Workers, KV storage, and R2 buckets. Supports DNS CRUD, Worker deployment, and edge storage operations via `robomotion cloudflare`. Do NOT use for AWS Route53, Azure DNS, or other DNS/CDN providers.",
-      "tags": [],
+      "tags": [
+        "devops",
+        "cloudflare",
+        "dns",
+        "cdn",
+        "workers"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "datadog",
       "path": "robomotion/datadog",
       "description": "Datadog monitoring platform — submit metrics, query logs, manage monitors/alerts, and schedule downtimes. Supports infrastructure monitoring and incident response via `robomotion datadog`. Do NOT use for Sentry, Splunk, Prometheus, or other monitoring tools.",
-      "tags": [],
+      "tags": [
+        "monitoring",
+        "datadog",
+        "metrics",
+        "logs",
+        "alerts",
+        "observability"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "discord-bot",
       "path": "robomotion/discord-bot",
       "description": "Discord bot — send messages, manage channels, handle roles, and interact with Discord servers. Supports message sending, channel management, and server administration via `robomotion discordbot`. Do NOT use for Slack, Teams, Telegram, or other messaging platforms.",
-      "tags": [],
+      "tags": [
+        "messaging",
+        "discord",
+        "bot",
+        "chat"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "docusign",
       "path": "robomotion/docusign",
       "description": "DocuSign eSignature — send documents for signing, manage envelopes and templates, track recipients. Supports envelope creation, status tracking, and document download via `robomotion docusign`. Do NOT use for Adobe Sign, HelloSign, PandaDoc, or other e-signature tools.",
-      "tags": [],
+      "tags": [
+        "document",
+        "docusign",
+        "esignature",
+        "contracts",
+        "signing"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "dropbox",
       "path": "robomotion/dropbox",
       "description": "Dropbox cloud storage — upload, download, copy, move, delete, search, and share files. Supports folder management, file metadata, and shareable link creation via `robomotion dropbox`. Do NOT use for Google Drive, S3, OneDrive, or local filesystem operations.",
-      "tags": [],
+      "tags": [
+        "storage",
+        "dropbox",
+        "cloud",
+        "files"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "dropcontact",
       "path": "robomotion/dropcontact",
       "description": "Dropcontact data enrichment — enrich and verify contact information including emails, phone numbers, and company data. Supports single and batch enrichment via `robomotion dropcontact`. Do NOT use for Apollo, Clearbit, Hunter.io, or other enrichment services.",
-      "tags": [],
+      "tags": [
+        "enrichment",
+        "dropcontact",
+        "contacts",
+        "email-verification",
+        "data"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "elevenlabs-ai",
       "path": "robomotion/elevenlabs-ai",
       "description": "ElevenLabs AI speech platform — text-to-speech, speech-to-text, voice cloning, sound effects, and audio isolation. Supports 30+ languages, voice management, and pronunciation dictionaries via `robomotion elevenlabsai`. Do NOT use for OpenAI TTS, Google Speech, Amazon Polly, or other speech services.",
-      "tags": [],
+      "tags": [
+        "ai",
+        "elevenlabs",
+        "tts",
+        "speech",
+        "voice"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "ethereum",
       "path": "robomotion/ethereum",
       "description": "Ethereum blockchain client — interact with smart contracts, send transactions, check balances, and monitor blocks/events. Supports ERC-20 tokens, ENS resolution, gas estimation, and event watching via `robomotion ethereum`. Do NOT use for Binance, centralized exchanges, or other blockchains.",
-      "tags": [],
+      "tags": [
+        "crypto",
+        "ethereum",
+        "blockchain",
+        "web3",
+        "smart-contracts"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "excel365",
       "path": "robomotion/excel365",
       "description": "Microsoft Excel 365 — read, write, and manage workbooks, worksheets, tables, ranges, cells, rows, columns, and formulas in OneDrive/SharePoint. Full spreadsheet operations via `robomotion excel365`. Do NOT use for Google Sheets, local Excel files, or CSV processing.",
-      "tags": [],
+      "tags": [
+        "microsoft",
+        "excel",
+        "spreadsheet",
+        "office365",
+        "data"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "falai",
       "path": "robomotion/falai",
       "description": "Fal.ai AI model runner — generate images, videos, and audio using cloud-hosted ML models. Supports synchronous and async (queue-based) inference via `robomotion falai`. Do NOT use for OpenAI, Stability AI, Replicate, or other AI inference platforms.",
-      "tags": [],
+      "tags": [
+        "ai",
+        "falai",
+        "image-generation",
+        "video",
+        "inference"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "fibery",
       "path": "robomotion/fibery",
       "description": "Fibery workspace platform — manage entities, databases, documents, and spaces. Supports CRUD on any entity type with filtering and search via `robomotion fibery`. Do NOT use for Notion, ClickUp, Monday.com, or other productivity platforms.",
-      "tags": [],
+      "tags": [
+        "productivity",
+        "fibery",
+        "workspace",
+        "databases",
+        "entities"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "gateio",
       "path": "robomotion/gateio",
       "description": "Gate.io cryptocurrency exchange — trade crypto, check prices, view orderbooks, and manage account balances. Supports market/limit orders, ticker data, and trading pair listing via `robomotion gateio`. Do NOT use for Binance, Coinbase, or other crypto exchanges.",
-      "tags": [],
+      "tags": [
+        "crypto",
+        "gateio",
+        "trading",
+        "exchange",
+        "market-data"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "gemini-ai",
       "path": "robomotion/gemini-ai",
       "description": "Google Gemini AI — generate text, analyze images, and create embeddings using Gemini models. Supports chat with history, vision, and content generation via `robomotion googlegemini`. Do NOT use for OpenAI, Claude, or other AI models.",
-      "tags": [],
+      "tags": [
+        "ai",
+        "llm",
+        "gemini",
+        "google",
+        "text-generation"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "ghost",
       "path": "robomotion/ghost",
       "description": "Ghost CMS — manage posts, pages, tags, members, tiers, newsletters, and offers on Ghost-powered sites. Supports content publishing, membership management, and newsletter configuration via `robomotion ghost`. Do NOT use for WordPress, Medium, or other CMS platforms.",
-      "tags": [],
+      "tags": [
+        "cms",
+        "ghost",
+        "blog",
+        "publishing",
+        "content"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "gmail",
       "path": "robomotion/gmail",
       "description": "Gmail — send, read, search, label, archive, draft, and manage emails and threads. Supports attachments, labels, drafts, and thread operations via `robomotion gmail`. Do NOT use for Outlook, generic SMTP, or non-email messaging.",
-      "tags": [],
+      "tags": [
+        "email",
+        "gmail",
+        "google",
+        "communication"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "google-calendar",
       "path": "robomotion/google-calendar",
       "description": "Google Calendar — create, read, update, delete, and search calendar events. Supports recurring events, attendees, and multi-calendar management via `robomotion googlecalendar`. Do NOT use for Outlook Calendar, Calendly, Cal.com, or other scheduling tools.",
-      "tags": [],
+      "tags": [
+        "google",
+        "calendar",
+        "events",
+        "scheduling",
+        "productivity"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "google-docs",
       "path": "robomotion/google-docs",
       "description": "Google Docs — create, read, and update documents in Google Docs. Supports document creation, content reading, and text operations via `robomotion googledocs`. Do NOT use for Microsoft Word, local files, or PDF processing.",
-      "tags": [],
+      "tags": [
+        "google",
+        "docs",
+        "document",
+        "writing"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "google-drive",
       "path": "robomotion/google-drive",
       "description": "Google Drive — upload, download, list, copy, move, delete, and share files and folders. Supports file search, permission management, and shared drive operations via `robomotion googledrive`. Do NOT use for Dropbox, S3, OneDrive, or local filesystem.",
-      "tags": [],
+      "tags": [
+        "google",
+        "drive",
+        "storage",
+        "cloud",
+        "files"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "google-forms",
       "path": "robomotion/google-forms",
       "description": "Google Forms — create forms, manage questions, and retrieve responses. Supports form creation, question management, and response collection via `robomotion googleforms`. Do NOT use for Typeform, SurveyMonkey, or other form builders.",
-      "tags": [],
+      "tags": [
+        "google",
+        "forms",
+        "survey",
+        "responses",
+        "productivity"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "google-maps",
       "path": "robomotion/google-maps",
       "description": "Google Maps — geocode addresses, reverse geocode coordinates, search for places, and get directions. Supports location services via `robomotion googlemaps`. Do NOT use for OpenStreetMap, Mapbox, or other mapping services.",
-      "tags": [],
+      "tags": [
+        "google",
+        "maps",
+        "geocoding",
+        "places",
+        "directions",
+        "location"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "google-sheets",
       "path": "robomotion/google-sheets",
       "description": "Google Sheets — read, write, append, and manage spreadsheet data, sheets, and formatting. Supports cell operations, range reads/writes, and sheet management via `robomotion googlesheets`. Do NOT use for Excel 365, Airtable, or CSV files.",
-      "tags": [],
+      "tags": [
+        "google",
+        "sheets",
+        "spreadsheet",
+        "data"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "google-slides",
       "path": "robomotion/google-slides",
       "description": "Google Slides — create presentations, add/manage/duplicate slides, replace text and images, and export to PDF. Supports template-based workflows via `robomotion googleslides`. Do NOT use for PowerPoint, Keynote, or other presentation tools.",
-      "tags": [],
+      "tags": [
+        "google",
+        "slides",
+        "presentation",
+        "productivity"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "google-speech",
       "path": "robomotion/google-speech",
       "description": "Google Speech — transcribe audio to text (speech-to-text) and convert text to speech (TTS). Supports multiple languages and audio formats via `robomotion googlespeech`. Do NOT use for OpenAI Whisper, ElevenLabs, or other speech services.",
-      "tags": [],
+      "tags": [
+        "google",
+        "speech",
+        "transcription",
+        "tts",
+        "stt",
+        "ai"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "google-storage",
       "path": "robomotion/google-storage",
       "description": "Google Cloud Storage — upload, download, list, delete, copy, and move objects in GCS buckets. Supports bucket management, signed URLs, and metadata operations via `robomotion googlestorage`. Do NOT use for S3, Dropbox, Google Drive, or local filesystem.",
-      "tags": [],
+      "tags": [
+        "google",
+        "gcs",
+        "storage",
+        "cloud",
+        "buckets"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "google-translate",
       "path": "robomotion/google-translate",
       "description": "Google Translate — translate text between languages using Google Cloud Translation API. Supports language detection and 100+ languages via `robomotion googletranslate`. Do NOT use for OpenAI, Claude, DeepL, or other translation services.",
-      "tags": [],
+      "tags": [
+        "google",
+        "translate",
+        "language",
+        "ai",
+        "localization"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "homeassistant",
       "path": "robomotion/homeassistant",
       "description": "Home Assistant — control smart home devices, call services, read states, manage automations, and monitor events. Supports device control, scene activation, and history queries via `robomotion homeassistant`. Do NOT use for AWS IoT, Google Home API, or other IoT platforms.",
-      "tags": [],
+      "tags": [
+        "iot",
+        "homeassistant",
+        "smart-home",
+        "automation",
+        "devices"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "hubspot-crm",
       "path": "robomotion/hubspot-crm",
       "description": "HubSpot CRM — manage contacts, companies, deals, tickets, and products. Supports CRUD, search, associations, and pipeline management via `robomotion hubspot`. Do NOT use for Salesforce, Apollo, Pipedrive, or other CRM systems.",
-      "tags": [],
+      "tags": [
+        "crm",
+        "hubspot",
+        "contacts",
+        "deals",
+        "sales"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "instantly",
       "path": "robomotion/instantly",
       "description": "Instantly cold email platform — manage campaigns, leads, email accounts, and track analytics. Supports lead import, campaign management, and deliverability monitoring via `robomotion instantly`. Do NOT use for Lemlist, Mailchimp, Gmail, or other email platforms.",
-      "tags": [],
+      "tags": [
+        "email",
+        "instantly",
+        "cold-email",
+        "outreach",
+        "campaigns"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "jira",
       "path": "robomotion/jira",
       "description": "Jira project management — create, update, search, transition, and comment on issues. Supports JQL search, issue lifecycle, and project management via `robomotion jira`. Do NOT use for Trello, ClickUp, Asana, or other PM tools.",
-      "tags": [],
+      "tags": [
+        "project-management",
+        "jira",
+        "issues",
+        "agile"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "lemlist",
       "path": "robomotion/lemlist",
       "description": "Lemlist email outreach — manage campaigns, leads, and email sequences. Supports lead management and campaign operations via `robomotion lemlist`. Do NOT use for Instantly, Mailchimp, Gmail, or other email platforms.",
-      "tags": [],
+      "tags": [
+        "email",
+        "lemlist",
+        "outreach",
+        "cold-email",
+        "campaigns"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "leonardo-ai",
       "path": "robomotion/leonardo-ai",
       "description": "Leonardo AI image generation — create images, upscale, remove backgrounds, and manage generation jobs. Supports multiple AI models and style presets via `robomotion leonardoai`. Do NOT use for DALL-E, Stability AI, Midjourney, or other image generation services.",
-      "tags": [],
+      "tags": [
+        "ai",
+        "leonardo-ai",
+        "image-generation",
+        "art",
+        "creative"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "mautic",
       "path": "robomotion/mautic",
       "description": "Mautic marketing automation — manage contacts, companies, segments, campaigns, emails, and forms. Supports lead scoring, campaign automation, and email marketing via `robomotion mautic`. Do NOT use for HubSpot Marketing, Mailchimp, or other marketing platforms.",
-      "tags": [],
+      "tags": [
+        "marketing",
+        "mautic",
+        "automation",
+        "campaigns",
+        "contacts",
+        "open-source"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "microsoft-ad",
       "path": "robomotion/microsoft-ad",
       "description": "Active Directory — manage users, groups, organizational units, and group memberships. Supports LDAP-based user/group CRUD and OU management via `robomotion activedirectory`. Do NOT use for Azure AD/Entra ID, Okta, Auth0, or other identity providers.",
-      "tags": [],
+      "tags": [
+        "identity",
+        "active-directory",
+        "microsoft",
+        "ldap",
+        "users",
+        "groups"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "millionverifier",
       "path": "robomotion/millionverifier",
       "description": "MillionVerifier email verification — verify single emails and run bulk email list verification. Supports quality scoring, verdicts, bulk upload, and report download via `robomotion millionverifier`. Do NOT use for Dropcontact, ZeroBounce, or other verification services.",
-      "tags": [],
+      "tags": [
+        "email",
+        "millionverifier",
+        "verification",
+        "deliverability"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "mongodb",
       "path": "robomotion/mongodb",
       "description": "MongoDB — query, insert, update, delete, and aggregate documents in MongoDB collections. Supports CRUD operations, aggregation pipelines, and collection management via `robomotion mongodb`. Do NOT use for PostgreSQL, MySQL, Redis, or other databases.",
-      "tags": [],
+      "tags": [
+        "database",
+        "mongodb",
+        "nosql",
+        "document-db"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "monitoring",
       "path": "robomotion/monitoring",
       "description": "Uptime monitoring — check website and API endpoint health, ping services, and monitor HTTP status. Supports health checks, response time measurement, and availability tracking via `robomotion monitoring`. Do NOT use for Sentry, Datadog, Splunk, or application-level monitoring.",
-      "tags": [],
+      "tags": [
+        "monitoring",
+        "uptime",
+        "health-check",
+        "api",
+        "availability"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "mssql",
       "path": "robomotion/mssql",
       "description": "Microsoft SQL Server — execute queries, stored procedures, and manage transactions on MSSQL databases. Supports SELECT, INSERT, UPDATE, DELETE, and batch operations via `robomotion mssql`. Do NOT use for PostgreSQL, MySQL, Oracle, or other databases.",
-      "tags": [],
+      "tags": [
+        "database",
+        "mssql",
+        "sql-server",
+        "microsoft",
+        "sql"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "mysql",
       "path": "robomotion/mysql",
       "description": "MySQL database — execute queries, manage transactions, and perform CRUD operations on MySQL databases. Supports SELECT, INSERT, UPDATE, DELETE, stored procedures, and batch transactions via `robomotion mysql`. Do NOT use for PostgreSQL, MSSQL, MongoDB, or other databases.",
-      "tags": [],
+      "tags": [
+        "database",
+        "mysql",
+        "sql",
+        "query"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "nextcloud",
       "path": "robomotion/nextcloud",
       "description": "NextCloud — manage files, folders, sharing, and users on self-hosted NextCloud instances. Supports upload, download, file sharing, and user administration via `robomotion nextcloud`. Do NOT use for Dropbox, Google Drive, OneDrive, or other cloud storage.",
-      "tags": [],
+      "tags": [
+        "storage",
+        "nextcloud",
+        "self-hosted",
+        "files",
+        "sharing"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "nocodb",
       "path": "robomotion/nocodb",
       "description": "NocoDB — manage tables, records, and databases in NocoDB (open-source Airtable alternative). Supports CRUD, filtering, sorting, and table management via `robomotion nocodb`. Do NOT use for Airtable, Baserow, Google Sheets, or other no-code databases.",
-      "tags": [],
+      "tags": [
+        "database",
+        "nocodb",
+        "no-code",
+        "open-source",
+        "airtable-alternative"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "notion",
       "path": "robomotion/notion",
       "description": "Notion — create, read, update, and search pages and databases. Supports rich content blocks, database queries, and page management via `robomotion notion`. Do NOT use for Fibery, Confluence, Google Docs, or other wiki/productivity tools.",
-      "tags": [],
+      "tags": [
+        "productivity",
+        "notion",
+        "notes",
+        "wiki",
+        "database"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "ocr-extraction",
       "path": "robomotion/ocr-extraction",
       "description": "OCR text extraction — extract text from images and scanned documents using Google Vision and Document AI. Supports image OCR, document parsing, and structured data extraction via `robomotion googlevision` and `robomotion googledocumentai`. Do NOT use for Tesseract, ABBYY, or direct text processing.",
-      "tags": [],
+      "tags": [
+        "ocr",
+        "extraction",
+        "vision",
+        "document-ai",
+        "google"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "odoo",
       "path": "robomotion/odoo",
       "description": "Odoo ERP — manage contacts, sales orders, invoices, products, leads, and any model via XML-RPC. Supports full ERP operations across all Odoo modules via `robomotion odoo`. Do NOT use for SAP, NetSuite, Salesforce, or other ERP/CRM platforms.",
-      "tags": [],
+      "tags": [
+        "erp",
+        "odoo",
+        "crm",
+        "sales",
+        "invoices",
+        "open-source"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "ollama",
       "path": "robomotion/ollama",
       "description": "Ollama local AI — run LLM models locally for text generation, chat, and embeddings. Supports model management, streaming, and multi-turn conversations via `robomotion ollama`. Do NOT use for OpenAI, Claude, Gemini, or other cloud AI services.",
-      "tags": [],
+      "tags": [
+        "ai",
+        "llm",
+        "ollama",
+        "local",
+        "text-generation"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "onedrive365",
       "path": "robomotion/onedrive365",
       "description": "Microsoft OneDrive 365 — upload, download, list, copy, move, delete, and share files via Microsoft Graph API. Supports folder management, sharing links, and permission control via `robomotion onedrive365`. Do NOT use for Google Drive, Dropbox, S3, or SharePoint document libraries.",
-      "tags": [],
+      "tags": [
+        "microsoft",
+        "onedrive",
+        "storage",
+        "cloud",
+        "files",
+        "office365"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "onenote365",
       "path": "robomotion/onenote365",
       "description": "Microsoft OneNote 365 — manage notebooks, sections, section groups, and pages via Microsoft Graph API. Supports page creation, content reading, and notebook organization via `robomotion onenote365`. Do NOT use for Notion, Evernote, Google Keep, or other note apps.",
-      "tags": [],
+      "tags": [
+        "microsoft",
+        "onenote",
+        "notes",
+        "office365",
+        "productivity"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "openai",
       "path": "robomotion/openai",
       "description": "OpenAI API — generate text, images, speech, transcriptions, and embeddings using GPT, DALL-E, Whisper, and TTS models. Supports chat completions, vision, function calling, and file management via `robomotion openai`. Do NOT use for Claude, Gemini, or direct LLM conversation.",
-      "tags": [],
+      "tags": [
+        "ai",
+        "llm",
+        "openai",
+        "gpt",
+        "text-generation"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "openrouter",
       "path": "robomotion/openrouter",
       "description": "OpenRouter unified AI API — access 480+ AI models (Claude, GPT, Gemini, Grok, DeepSeek, etc.) through a single API. Supports text generation, chat, image generation, streaming, and reasoning mode via `robomotion openrouter`. Do NOT use for direct OpenAI, Claude, or Gemini API calls.",
-      "tags": [],
+      "tags": [
+        "ai",
+        "llm",
+        "openrouter",
+        "multi-model",
+        "text-generation"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "openweather",
       "path": "robomotion/openweather",
       "description": "OpenWeatherMap — get current weather, forecasts, air quality, and historical weather data for any location. Supports geocoding and multiple weather data types via `robomotion openweather`. Do NOT use for AccuWeather or other weather services.",
-      "tags": [],
+      "tags": [
+        "weather",
+        "openweather",
+        "forecast",
+        "api",
+        "climate"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "oracle",
       "path": "robomotion/oracle",
       "description": "Oracle Database — execute SQL queries, manage transactions, and perform CRUD operations. Supports SELECT, INSERT, UPDATE, DELETE, stored procedures, and batch transactions via `robomotion oracle`. Do NOT use for PostgreSQL, MySQL, MSSQL, or other databases.",
-      "tags": [],
+      "tags": [
+        "database",
+        "oracle",
+        "sql",
+        "enterprise"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "outlook365",
       "path": "robomotion/outlook365",
       "description": "Microsoft Outlook 365 — send, read, search, and manage emails, calendar events, and mail folders via Microsoft Graph API. Supports attachments, replies, and event scheduling via `robomotion outlook365`. Do NOT use for Gmail, generic SMTP, or non-Microsoft email.",
-      "tags": [],
+      "tags": [
+        "microsoft",
+        "outlook",
+        "email",
+        "office365",
+        "calendar"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "pcloud",
       "path": "robomotion/pcloud",
       "description": "pCloud — upload, download, list, create, delete, and manage files and folders in pCloud storage. Supports file operations and folder management via `robomotion pcloud`. Do NOT use for Dropbox, Google Drive, OneDrive, or other cloud storage.",
-      "tags": [],
+      "tags": [
+        "storage",
+        "pcloud",
+        "cloud",
+        "files"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "pdf",
       "path": "robomotion/pdf",
       "description": "PDF processor — create, merge, split, extract text, convert, and manipulate PDF files. Supports page operations, text extraction, and format conversions via `robomotion pdfprocessor`. Do NOT use for Google Docs, Word documents, or image OCR.",
-      "tags": [],
+      "tags": [
+        "document",
+        "pdf",
+        "extraction",
+        "generation"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "perplexity",
       "path": "robomotion/perplexity",
       "description": "Perplexity AI — AI-powered search and chat with real-time web data and citations. Supports web-grounded responses and conversational search via `robomotion perplexity`. Do NOT use for OpenAI, Claude, Google Search, Tavily, or other AI/search services.",
-      "tags": [],
+      "tags": [
+        "ai",
+        "perplexity",
+        "search",
+        "chat",
+        "web-data"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "phantombuster",
       "path": "robomotion/phantombuster",
       "description": "Phantombuster — run web scraping and automation Phantoms for data extraction from social media and websites. Supports Phantom management, execution, and result retrieval via `robomotion phantombuster`. Do NOT use for Apify, direct scraping, or dom parser.",
-      "tags": [],
+      "tags": [
+        "automation",
+        "phantombuster",
+        "scraping",
+        "data-extraction",
+        "phantoms"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "pinecone",
       "path": "robomotion/pinecone",
       "description": "Pinecone vector database — upsert, query, and manage vector embeddings in Pinecone indexes. Supports similarity search, namespace management, and index operations via `robomotion pinecone`. Do NOT use for Qdrant, Weaviate, ChromaDB, or other vector databases.",
-      "tags": [],
+      "tags": [
+        "vector-db",
+        "pinecone",
+        "embeddings",
+        "similarity-search"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "polymarket",
       "path": "robomotion/polymarket",
       "description": "Polymarket prediction markets — access market data, event details, pricing, orderbooks, positions, and trading analytics. Supports market research and position tracking via `robomotion polymarket`. Do NOT use for Binance, stock trading, or other financial platforms.",
-      "tags": [],
+      "tags": [
+        "prediction",
+        "polymarket",
+        "markets",
+        "data",
+        "analytics"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "postgresql",
       "path": "robomotion/postgresql",
       "description": "PostgreSQL database — execute SQL queries, manage transactions, and perform CRUD operations. Supports SELECT, INSERT, UPDATE, DELETE, batch transactions, and stored procedures via `robomotion postgresql`. Do NOT use for MySQL, MongoDB, SQLite, or other databases.",
-      "tags": [],
+      "tags": [
+        "database",
+        "postgresql",
+        "sql",
+        "query"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "powerpoint365",
       "path": "robomotion/powerpoint365",
       "description": "Microsoft PowerPoint 365 — create presentations from templates, replace text/images, duplicate slides, and export to PDF. Supports AI-powered presentation generation workflows via `robomotion powerpoint365`. Do NOT use for Google Slides, Keynote, or local PowerPoint files.",
-      "tags": [],
+      "tags": [
+        "microsoft",
+        "powerpoint",
+        "presentation",
+        "office365",
+        "slides"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "pushover",
       "path": "robomotion/pushover",
       "description": "Pushover — send push notifications to Android, iOS, and desktop devices with priority levels, sounds, and attachments. Supports emergency alerts and delivery verification via `robomotion pushover`. Do NOT use for Slack, email, Twilio SMS, or other notification channels.",
-      "tags": [],
+      "tags": [
+        "notifications",
+        "pushover",
+        "alerts",
+        "push",
+        "mobile"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "qdrant",
       "path": "robomotion/qdrant",
       "description": "Qdrant vector database — upsert, search, and manage vector embeddings with payload filtering. Supports collection management, similarity search, batch operations, and scroll queries via `robomotion qdrant`. Do NOT use for Pinecone, Weaviate, ChromaDB, or other vector databases.",
-      "tags": [],
+      "tags": [
+        "vector-db",
+        "qdrant",
+        "embeddings",
+        "similarity-search"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "questdb",
       "path": "robomotion/questdb",
       "description": "QuestDB time-series database — execute SQL queries and insert time-series data. Supports high-performance ingestion and time-based analytics via `robomotion questdb`. Do NOT use for TimescaleDB, InfluxDB, or other time-series databases.",
-      "tags": [],
+      "tags": [
+        "database",
+        "questdb",
+        "time-series",
+        "sql",
+        "analytics"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "rabbitmq",
       "path": "robomotion/rabbitmq",
       "description": "RabbitMQ message broker — publish and consume messages, manage queues and exchanges. Supports message routing, queue binding, and queue management via `robomotion rabbitmq`. Do NOT use for Kafka, Redis pub/sub, SQS, or other message brokers.",
-      "tags": [],
+      "tags": [
+        "messaging",
+        "rabbitmq",
+        "queue",
+        "broker",
+        "amqp"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "redis",
       "path": "robomotion/redis",
       "description": "Redis — perform key-value operations on strings, hashes, lists, sets, and pub/sub channels. Supports TTL, pattern matching, and all core Redis data structures via `robomotion redis`. Do NOT use for PostgreSQL, MongoDB, Memcached, or other databases.",
-      "tags": [],
+      "tags": [
+        "database",
+        "redis",
+        "cache",
+        "key-value",
+        "pub-sub"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "replicate-ai",
       "path": "robomotion/replicate-ai",
       "description": "Replicate AI — run ML model predictions for image, video, text, and audio generation. Supports model execution, async predictions, streaming, and model management via `robomotion replicateai`. Do NOT use for OpenAI, Fal.ai, Stability AI, or other AI platforms.",
-      "tags": [],
+      "tags": [
+        "ai",
+        "replicate",
+        "models",
+        "inference",
+        "ml"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "resend",
       "path": "robomotion/resend",
       "description": "Resend email API — send transactional emails, manage contacts, audiences, and domains. Supports HTML/text emails, batch sending, and domain verification via `robomotion resend`. Do NOT use for Gmail, Outlook, SendGrid, or other email services.",
-      "tags": [],
+      "tags": [
+        "email",
+        "resend",
+        "transactional",
+        "api",
+        "communication"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "rundeck",
       "path": "robomotion/rundeck",
       "description": "Rundeck — execute automation jobs, manage projects, and monitor job executions. Supports runbook automation and job scheduling via `robomotion rundeck`. Do NOT use for Ansible, Jenkins, GitHub Actions, or other CI/CD tools.",
-      "tags": [],
+      "tags": [
+        "devops",
+        "rundeck",
+        "automation",
+        "jobs",
+        "runbook"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "s3-storage",
       "path": "robomotion/s3-storage",
       "description": "Amazon S3 — upload, download, list, delete, and manage objects in S3 buckets. Supports bucket management, presigned URLs, and multi-part uploads via `robomotion amazons3`. Do NOT use for Google Cloud Storage, Dropbox, OneDrive, or other storage services.",
-      "tags": [],
+      "tags": [
+        "aws",
+        "s3",
+        "storage",
+        "cloud",
+        "files"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "searchapi",
       "path": "robomotion/searchapi",
       "description": "SearchAPI — search Google, Bing, YouTube, Google Maps, News, Scholar, Shopping, and more through a unified API. Supports multiple search engines and result types via `robomotion searchapi`. Do NOT use for Serper, Tavily, or direct Google API.",
-      "tags": [],
+      "tags": [
+        "search",
+        "searchapi",
+        "google",
+        "bing",
+        "youtube",
+        "web"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "seatable",
       "path": "robomotion/seatable",
       "description": "SeaTable — manage rows, tables, and bases in SeaTable collaborative databases. Supports CRUD, filtering, linking, file attachments, and view management via `robomotion seatable`. Do NOT use for Airtable, Baserow, NocoDB, or other no-code databases.",
-      "tags": [],
+      "tags": [
+        "database",
+        "seatable",
+        "no-code",
+        "tables",
+        "collaboration"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "sentry",
       "path": "robomotion/sentry",
       "description": "Sentry error tracking — monitor application errors and capture events. Supports error reporting, issue listing, and event tracking via `robomotion sentry`. Do NOT use for Datadog, Splunk, New Relic, or other APM platforms.",
-      "tags": [],
+      "tags": [
+        "monitoring",
+        "sentry",
+        "errors",
+        "debugging",
+        "observability"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "serper",
       "path": "robomotion/serper",
       "description": "Serper Google Search API — search Google for web, image, video, news, shopping, scholar, places, and autocomplete results. Supports multiple search types and result formats via `robomotion serper`. Do NOT use for SearchAPI, Tavily, or direct Google API.",
-      "tags": [],
+      "tags": [
+        "search",
+        "serper",
+        "google",
+        "web",
+        "images",
+        "news"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "sharepoint365",
       "path": "robomotion/sharepoint365",
       "description": "Microsoft SharePoint 365 — manage sites, lists, list items, document libraries, and files via Microsoft Graph API. Supports site search, list CRUD, and file operations via `robomotion sharepoint365`. Do NOT use for OneDrive personal, Google Drive, or Confluence.",
-      "tags": [],
+      "tags": [
+        "microsoft",
+        "sharepoint",
+        "collaboration",
+        "office365",
+        "lists",
+        "sites"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "shopify",
       "path": "robomotion/shopify",
       "description": "Shopify — manage products, orders, customers, inventory, collections, and fulfillments. Supports full ecommerce operations including order processing and inventory tracking via `robomotion shopify`. Do NOT use for WooCommerce, Magento, or other ecommerce platforms.",
-      "tags": [],
+      "tags": [
+        "ecommerce",
+        "shopify",
+        "products",
+        "orders",
+        "store"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "slack",
       "path": "robomotion/slack",
       "description": "Slack — send messages, manage channels, list users, upload files, and receive messages via Socket Mode. Supports channel management and file operations via `robomotion slack`. Do NOT use for Discord, Teams, Telegram, or other messaging platforms.",
-      "tags": [],
+      "tags": [
+        "messaging",
+        "slack",
+        "chat",
+        "communication"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "splunk",
       "path": "robomotion/splunk",
       "description": "Splunk — search logs, submit events, manage indexes, and run saved searches. Supports SPL queries, event ingestion, and search job management via `robomotion splunk`. Do NOT use for Datadog, Sentry, ELK Stack, or other log platforms.",
-      "tags": [],
+      "tags": [
+        "monitoring",
+        "splunk",
+        "logs",
+        "search",
+        "analytics",
+        "siem"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "sqlite",
       "path": "robomotion/sqlite",
       "description": "SQLite — execute queries and manage embedded SQLite database files. Supports SELECT, INSERT, UPDATE, DELETE, batch transactions, and local database operations via `robomotion sqlite`. Do NOT use for PostgreSQL, MySQL, or server-based databases.",
-      "tags": [],
+      "tags": [
+        "database",
+        "sqlite",
+        "sql",
+        "embedded",
+        "local"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "ssh",
       "path": "robomotion/ssh",
       "description": "SSH — execute remote commands and transfer files via SSH/SCP/SFTP. Supports command execution, file upload/download, and tunneling via `robomotion ssh`. Do NOT use for local shell commands, Ansible, or Terraform.",
-      "tags": [],
+      "tags": [
+        "devops",
+        "ssh",
+        "remote",
+        "server",
+        "shell"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "stability-ai",
       "path": "robomotion/stability-ai",
       "description": "Stability AI — generate and edit images using Stable Diffusion models. Supports text-to-image, image-to-image, upscaling, and style control via `robomotion stabilityai`. Do NOT use for DALL-E, Leonardo AI, Midjourney, or other image generation services.",
-      "tags": [],
+      "tags": [
+        "ai",
+        "stability-ai",
+        "image-generation",
+        "stable-diffusion"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "stripe-payments",
       "path": "robomotion/stripe-payments",
       "description": "Stripe — manage payments, customers, subscriptions, invoices, and products. Supports charge creation, refunds, and billing lifecycle via `robomotion stripe`. Do NOT use for PayPal, Square, or other payment processors.",
-      "tags": [],
+      "tags": [
+        "payments",
+        "stripe",
+        "billing",
+        "subscriptions"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "supabase",
       "path": "robomotion/supabase",
       "description": "Supabase — query tables, manage storage, and call remote procedures on Supabase projects. Supports database CRUD, file storage, and RPC calls via `robomotion supabase`. Do NOT use for Firebase, direct PostgreSQL, or other BaaS platforms.",
-      "tags": [],
+      "tags": [
+        "database",
+        "supabase",
+        "baas",
+        "storage",
+        "sql"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "tavily",
       "path": "robomotion/tavily",
       "description": "Tavily — AI-powered web search, content extraction, site crawling, and URL mapping. Supports search depth control, domain filtering, and structured content extraction via `robomotion tavily`. Do NOT use for Google Search, Serper, SearchAPI, or Perplexity.",
-      "tags": [],
+      "tags": [
+        "search",
+        "tavily",
+        "web",
+        "ai-search",
+        "extraction"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "teams365",
       "path": "robomotion/teams365",
       "description": "Microsoft Teams 365 — send messages, manage teams/channels/members, and handle channel conversations via Microsoft Graph API. Supports message threading, channel creation, and member management via `robomotion teams365`. Do NOT use for Slack, Discord, Telegram, or other messaging.",
-      "tags": [],
+      "tags": [
+        "microsoft",
+        "teams",
+        "messaging",
+        "chat",
+        "office365",
+        "collaboration"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "telegram",
       "path": "robomotion/telegram",
       "description": "Telegram Bot — send messages, photos, documents, manage chats, and handle updates. Supports inline keyboards, chat management, and file operations via `robomotion telegrambot`. Do NOT use for WhatsApp, Slack, Discord, or other messaging platforms.",
-      "tags": [],
+      "tags": [
+        "messaging",
+        "telegram",
+        "bot",
+        "chat"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "tidbcloud",
       "path": "robomotion/tidbcloud",
       "description": "TiDB Cloud — execute SQL queries and manage data in distributed TiDB Cloud databases. Supports MySQL-compatible SQL operations via `robomotion tidbcloud`. Do NOT use for MySQL, PostgreSQL, CockroachDB, or other databases.",
-      "tags": [],
+      "tags": [
+        "database",
+        "tidbcloud",
+        "distributed-sql",
+        "cloud",
+        "mysql-compatible"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "timescaledb",
       "path": "robomotion/timescaledb",
       "description": "TimescaleDB — manage time-series data with hypertables, time-bucket queries, compression, and continuous aggregates. Supports high-performance time-series analytics via `robomotion timescaledb`. Do NOT use for QuestDB, InfluxDB, or plain PostgreSQL.",
-      "tags": [],
+      "tags": [
+        "database",
+        "timescaledb",
+        "time-series",
+        "hypertable",
+        "sql"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "travisci",
       "path": "robomotion/travisci",
       "description": "Travis CI — manage builds, repositories, jobs, and build logs. Supports build triggering, status monitoring, and repository management via `robomotion travisci`. Do NOT use for GitHub Actions, Jenkins, CircleCI, or other CI/CD platforms.",
-      "tags": [],
+      "tags": [
+        "ci-cd",
+        "travisci",
+        "builds",
+        "testing",
+        "automation"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "trello",
       "path": "robomotion/trello",
       "description": "Trello — manage boards, lists, cards, labels, checklists, and members for visual project management. Supports full card lifecycle including attachments, comments, and checklist items via `robomotion trello`. Do NOT use for Jira, ClickUp, Asana, or other PM tools.",
-      "tags": [],
+      "tags": [
+        "project-management",
+        "trello",
+        "boards",
+        "cards",
+        "kanban"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "twilio",
       "path": "robomotion/twilio",
       "description": "Twilio — send SMS/MMS messages, make phone calls, and manage communication resources. Supports messaging, voice calls, and phone number lookup via `robomotion twilio`. Do NOT use for WhatsApp, Telegram, email, or other messaging platforms.",
-      "tags": [],
+      "tags": [
+        "communication",
+        "twilio",
+        "sms",
+        "voice",
+        "phone"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "typeform",
       "path": "robomotion/typeform",
       "description": "Typeform — manage forms, collect responses, and analyze submission data. Supports form listing, response retrieval, and form management via `robomotion typeform`. Do NOT use for Google Forms, SurveyMonkey, or other form builders.",
-      "tags": [],
+      "tags": [
+        "forms",
+        "typeform",
+        "survey",
+        "responses",
+        "data-collection"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "vikunja",
       "path": "robomotion/vikunja",
       "description": "Vikunja — manage projects, tasks, labels, teams, and task assignments in self-hosted Vikunja instances. Supports full task lifecycle including comments, attachments, and team management via `robomotion vikunja`. Do NOT use for Jira, Trello, ClickUp, or other PM tools.",
-      "tags": [],
+      "tags": [
+        "project-management",
+        "vikunja",
+        "tasks",
+        "open-source",
+        "self-hosted"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "web-scraper",
       "path": "robomotion/web-scraper",
       "description": "DOM Parser web scraper — extract data from HTML pages using CSS selectors and XPath queries. Supports structured data extraction, attribute reading, and HTML parsing via `robomotion domparser`. Do NOT use for Apify, Puppeteer, or browser automation.",
-      "tags": [],
+      "tags": [
+        "web",
+        "scraping",
+        "html",
+        "dom",
+        "parsing",
+        "extraction"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "whatsapp",
       "path": "robomotion/whatsapp",
       "description": "WhatsApp Business API — send text messages, media, templates, and interactive messages. Supports message sending, contact management, and template messaging via `robomotion whatsapp`. Do NOT use for Telegram, Twilio SMS, or other messaging services.",
-      "tags": [],
+      "tags": [
+        "messaging",
+        "whatsapp",
+        "communication",
+        "business"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "wikipedia",
       "path": "robomotion/wikipedia",
       "description": "Wikipedia — search articles, retrieve page content, get summaries, and access Wikipedia data. Supports full-text search, page retrieval, and content extraction via `robomotion wikipedia`. Do NOT use for Google Search, web scraping, or other encyclopedias.",
-      "tags": [],
+      "tags": [
+        "reference",
+        "wikipedia",
+        "encyclopedia",
+        "knowledge",
+        "search"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "woocommerce",
       "path": "robomotion/woocommerce",
       "description": "WooCommerce — manage products, orders, customers, coupons, and categories in WordPress-based online stores. Supports full ecommerce operations via `robomotion woocommerce`. Do NOT use for Shopify, Magento, or other ecommerce platforms.",
-      "tags": [],
+      "tags": [
+        "ecommerce",
+        "woocommerce",
+        "wordpress",
+        "products",
+        "orders",
+        "store"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "wordpress",
       "path": "robomotion/wordpress",
       "description": "WordPress — manage posts, pages, categories, tags, media, users, and comments. Supports content publishing, media uploads, and site administration via `robomotion wordpress`. Do NOT use for Ghost, Medium, or other CMS platforms.",
-      "tags": [],
+      "tags": [
+        "cms",
+        "wordpress",
+        "blog",
+        "content",
+        "publishing"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "xano",
       "path": "robomotion/xano",
       "description": "Xano — manage database records, search data, and call custom API endpoints on Xano backends. Supports CRUD operations and custom API calls via `robomotion xano`. Do NOT use for Supabase, Firebase, or direct PostgreSQL.",
-      "tags": [],
+      "tags": [
+        "backend",
+        "xano",
+        "no-code",
+        "api",
+        "database"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     },
     {
       "name": "zoom",
       "path": "robomotion/zoom",
       "description": "Zoom — create and manage meetings, list recordings, and handle meeting participants. Supports meeting scheduling, recording management, and participant tracking via `robomotion zoom`. Do NOT use for Google Meet, Microsoft Teams, or other video platforms.",
-      "tags": [],
+      "tags": [
+        "communication",
+        "zoom",
+        "meetings",
+        "video",
+        "conferencing"
+      ],
       "compatibility": [
         "hermes",
         "llm"
-      ]
+      ],
+      "version": "1.0.0",
+      "author": "robomotion",
+      "license": "Apache-2.0"
     }
   ]
 }

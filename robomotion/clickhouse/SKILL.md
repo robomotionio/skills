@@ -1,8 +1,19 @@
 ---
-name: "clickhouse"
-description: "ClickHouse columnar database — execute analytical SQL queries and batch inserts on ClickHouse. Supports query execution, batch transactions, and non-query operations via `robomotion clickhouse`. Do NOT use for PostgreSQL, MySQL, MongoDB, or other databases."
+name: clickhouse
+description: ClickHouse columnar database — execute analytical SQL queries and batch
+  inserts on ClickHouse. Supports query execution, batch transactions, and non-query
+  operations via `robomotion clickhouse`. Do NOT use for PostgreSQL, MySQL, MongoDB,
+  or other databases.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- database
+- clickhouse
+- analytics
+- columnar
+- sql
 ---
-
 # ClickHouse
 
 The `robomotion clickhouse` CLI connects to ClickHouse for analytical SQL workloads. It supports executing SELECT queries, running INSERT/UPDATE/DELETE statements, and batch transactions for atomically executing multiple SQL commands.

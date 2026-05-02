@@ -1,8 +1,18 @@
 ---
-name: "fibery"
-description: "Fibery workspace platform — manage entities, databases, documents, and spaces. Supports CRUD on any entity type with filtering and search via `robomotion fibery`. Do NOT use for Notion, ClickUp, Monday.com, or other productivity platforms."
+name: fibery
+description: Fibery workspace platform — manage entities, databases, documents, and
+  spaces. Supports CRUD on any entity type with filtering and search via `robomotion
+  fibery`. Do NOT use for Notion, ClickUp, Monday.com, or other productivity platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- productivity
+- fibery
+- workspace
+- databases
+- entities
 ---
-
 # Fibery
 
 The `robomotion fibery` CLI connects to Fibery for workspace and entity management. It creates, reads, updates, and deletes entities in any Fibery database, lists available types/spaces, and supports filtered queries.

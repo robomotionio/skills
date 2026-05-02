@@ -1,8 +1,18 @@
 ---
-name: "gemini-ai"
-description: "Google Gemini AI — generate text, analyze images, and create embeddings using Gemini models. Supports chat with history, vision, and content generation via `robomotion googlegemini`. Do NOT use for OpenAI, Claude, or other AI models."
+name: gemini-ai
+description: Google Gemini AI — generate text, analyze images, and create embeddings
+  using Gemini models. Supports chat with history, vision, and content generation
+  via `robomotion googlegemini`. Do NOT use for OpenAI, Claude, or other AI models.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- ai
+- llm
+- gemini
+- google
+- text-generation
 ---
-
 # Google Gemini AI
 
 The `robomotion googlegemini` CLI calls Google's Gemini API for text generation, image analysis, and embeddings. It supports single-turn generation, multi-turn chat with history, vision (image + text), and embedding generation.

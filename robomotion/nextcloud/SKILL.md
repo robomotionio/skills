@@ -1,8 +1,19 @@
 ---
-name: "nextcloud"
-description: "NextCloud — manage files, folders, sharing, and users on self-hosted NextCloud instances. Supports upload, download, file sharing, and user administration via `robomotion nextcloud`. Do NOT use for Dropbox, Google Drive, OneDrive, or other cloud storage."
+name: nextcloud
+description: NextCloud — manage files, folders, sharing, and users on self-hosted
+  NextCloud instances. Supports upload, download, file sharing, and user administration
+  via `robomotion nextcloud`. Do NOT use for Dropbox, Google Drive, OneDrive, or other
+  cloud storage.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- storage
+- nextcloud
+- self-hosted
+- files
+- sharing
 ---
-
 # NextCloud
 
 The `robomotion nextcloud` CLI connects to NextCloud (self-hosted cloud storage) for file management, sharing, and administration. It uploads, downloads, lists, and deletes files; creates and manages shares with permissions; and administers users.

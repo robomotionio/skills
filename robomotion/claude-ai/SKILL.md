@@ -1,8 +1,19 @@
 ---
-name: "claude-ai"
-description: "Anthropic Claude AI — generate text, analyze documents, chat with history, and call tools via Claude models. Supports vision, thinking mode, MCP integration, and function calling via `robomotion claude`. Do NOT use for OpenAI, Gemini, or direct conversation — this runs Claude API calls through the Robomotion CLI."
+name: claude-ai
+description: Anthropic Claude AI — generate text, analyze documents, chat with history,
+  and call tools via Claude models. Supports vision, thinking mode, MCP integration,
+  and function calling via `robomotion claude`. Do NOT use for OpenAI, Gemini, or
+  direct conversation — this runs Claude API calls through the Robomotion CLI.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- ai
+- llm
+- claude
+- anthropic
+- text-generation
 ---
-
 # Claude AI (Anthropic)
 
 The `robomotion claude` CLI calls the Anthropic Claude API for text generation, document analysis, chat completions with history, and tool/function calling. It supports vision (image inputs), extended thinking mode, MCP server integration, and model listing.

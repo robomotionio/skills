@@ -1,8 +1,19 @@
 ---
-name: "ocr-extraction"
-description: "OCR text extraction — extract text from images and scanned documents using Google Vision and Document AI. Supports image OCR, document parsing, and structured data extraction via `robomotion googlevision` and `robomotion googledocumentai`. Do NOT use for Tesseract, ABBYY, or direct text processing."
+name: ocr-extraction
+description: OCR text extraction — extract text from images and scanned documents
+  using Google Vision and Document AI. Supports image OCR, document parsing, and structured
+  data extraction via `robomotion googlevision` and `robomotion googledocumentai`.
+  Do NOT use for Tesseract, ABBYY, or direct text processing.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- ocr
+- extraction
+- vision
+- document-ai
+- google
 ---
-
 # OCR Extraction (Google Vision / Document AI)
 
 The `robomotion googlevision` and `robomotion googledocumentai` CLIs extract text from images and scanned documents using Google Cloud Vision OCR and Document AI. They support image text detection, document parsing, and structured content extraction.

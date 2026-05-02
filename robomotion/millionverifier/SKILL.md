@@ -1,8 +1,18 @@
 ---
-name: "millionverifier"
-description: "MillionVerifier email verification — verify single emails and run bulk email list verification. Supports quality scoring, verdicts, bulk upload, and report download via `robomotion millionverifier`. Do NOT use for Dropcontact, ZeroBounce, or other verification services."
+name: millionverifier
+description: MillionVerifier email verification — verify single emails and run bulk
+  email list verification. Supports quality scoring, verdicts, bulk upload, and report
+  download via `robomotion millionverifier`. Do NOT use for Dropcontact, ZeroBounce,
+  or other verification services.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- email
+- millionverifier
+- verification
+- deliverability
 ---
-
 # MillionVerifier
 
 The `robomotion millionverifier` CLI connects to MillionVerifier for email address verification. It verifies single emails with quality/verdict scores, uploads email lists for bulk verification, tracks processing status, downloads verification reports, and manages API credits.

@@ -1,8 +1,18 @@
 ---
-name: "openweather"
-description: "OpenWeatherMap — get current weather, forecasts, air quality, and historical weather data for any location. Supports geocoding and multiple weather data types via `robomotion openweather`. Do NOT use for AccuWeather or other weather services."
+name: openweather
+description: OpenWeatherMap — get current weather, forecasts, air quality, and historical
+  weather data for any location. Supports geocoding and multiple weather data types
+  via `robomotion openweather`. Do NOT use for AccuWeather or other weather services.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- weather
+- openweather
+- forecast
+- api
+- climate
 ---
-
 # OpenWeather
 
 The `robomotion openweather` CLI connects to OpenWeatherMap API for weather data retrieval. It gets current weather conditions, multi-day forecasts, air quality data, and historical weather for any location by city name or coordinates.

@@ -1,8 +1,19 @@
 ---
-name: "google-calendar"
-description: "Google Calendar — create, read, update, delete, and search calendar events. Supports recurring events, attendees, and multi-calendar management via `robomotion googlecalendar`. Do NOT use for Outlook Calendar, Calendly, Cal.com, or other scheduling tools."
+name: google-calendar
+description: Google Calendar — create, read, update, delete, and search calendar events.
+  Supports recurring events, attendees, and multi-calendar management via `robomotion
+  googlecalendar`. Do NOT use for Outlook Calendar, Calendly, Cal.com, or other scheduling
+  tools.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- google
+- calendar
+- events
+- scheduling
+- productivity
 ---
-
 # Google Calendar
 
 The `robomotion googlecalendar` CLI connects to Google Calendar API for event management. It creates, reads, updates, deletes, and searches events across calendars, with support for attendees, time zones, and calendar listing.

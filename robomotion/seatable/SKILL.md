@@ -1,8 +1,18 @@
 ---
-name: "seatable"
-description: "SeaTable — manage rows, tables, and bases in SeaTable collaborative databases. Supports CRUD, filtering, linking, file attachments, and view management via `robomotion seatable`. Do NOT use for Airtable, Baserow, NocoDB, or other no-code databases."
+name: seatable
+description: SeaTable — manage rows, tables, and bases in SeaTable collaborative databases.
+  Supports CRUD, filtering, linking, file attachments, and view management via `robomotion
+  seatable`. Do NOT use for Airtable, Baserow, NocoDB, or other no-code databases.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- database
+- seatable
+- no-code
+- tables
+- collaboration
 ---
-
 # SeaTable
 
 The `robomotion seatable` CLI connects to SeaTable for collaborative database management. It manages rows (CRUD with filtering and sorting), tables, bases, links between records, file attachments, and views.

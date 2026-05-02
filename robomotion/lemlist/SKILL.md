@@ -1,8 +1,18 @@
 ---
-name: "lemlist"
-description: "Lemlist email outreach — manage campaigns, leads, and email sequences. Supports lead management and campaign operations via `robomotion lemlist`. Do NOT use for Instantly, Mailchimp, Gmail, or other email platforms."
+name: lemlist
+description: Lemlist email outreach — manage campaigns, leads, and email sequences.
+  Supports lead management and campaign operations via `robomotion lemlist`. Do NOT
+  use for Instantly, Mailchimp, Gmail, or other email platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- email
+- lemlist
+- outreach
+- cold-email
+- campaigns
 ---
-
 # Lemlist
 
 The `robomotion lemlist` CLI connects to Lemlist for email outreach management. It lists and manages campaigns, adds and removes leads from campaigns, and handles outreach sequence operations.

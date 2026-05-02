@@ -1,8 +1,18 @@
 ---
-name: "notion"
-description: "Notion — create, read, update, and search pages and databases. Supports rich content blocks, database queries, and page management via `robomotion notion`. Do NOT use for Fibery, Confluence, Google Docs, or other wiki/productivity tools."
+name: notion
+description: Notion — create, read, update, and search pages and databases. Supports
+  rich content blocks, database queries, and page management via `robomotion notion`.
+  Do NOT use for Fibery, Confluence, Google Docs, or other wiki/productivity tools.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- productivity
+- notion
+- notes
+- wiki
+- database
 ---
-
 # Notion
 
 The `robomotion notion` CLI connects to Notion for page and database management. It creates and updates pages with rich content blocks, queries databases with filters and sorts, and searches across the workspace.

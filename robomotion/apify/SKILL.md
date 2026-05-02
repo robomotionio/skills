@@ -1,8 +1,19 @@
 ---
-name: "apify"
-description: "Apify web scraping platform — run Apify actors for large-scale crawling and data extraction. Supports actor execution, run monitoring, and dataset retrieval via `robomotion apify`. Do NOT use for simple HTML parsing or non-Apify scraping tools."
+name: apify
+description: Apify web scraping platform — run Apify actors for large-scale crawling
+  and data extraction. Supports actor execution, run monitoring, and dataset retrieval
+  via `robomotion apify`. Do NOT use for simple HTML parsing or non-Apify scraping
+  tools.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- automation
+- apify
+- scraping
+- crawling
+- actors
 ---
-
 # Apify
 
 The `robomotion apify` CLI runs actors on the Apify platform for web scraping, crawling, and data extraction at scale. It handles actor execution with configurable timeouts, run status monitoring, and paginated dataset retrieval.

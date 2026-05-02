@@ -1,8 +1,18 @@
 ---
-name: "timescaledb"
-description: "TimescaleDB — manage time-series data with hypertables, time-bucket queries, compression, and continuous aggregates. Supports high-performance time-series analytics via `robomotion timescaledb`. Do NOT use for QuestDB, InfluxDB, or plain PostgreSQL."
+name: timescaledb
+description: TimescaleDB — manage time-series data with hypertables, time-bucket queries,
+  compression, and continuous aggregates. Supports high-performance time-series analytics
+  via `robomotion timescaledb`. Do NOT use for QuestDB, InfluxDB, or plain PostgreSQL.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- database
+- timescaledb
+- time-series
+- hypertable
+- sql
 ---
-
 # TimescaleDB
 
 The `robomotion timescaledb` CLI connects to TimescaleDB for time-series database operations. It manages hypertables, runs time-bucket aggregation queries, handles data insertion with timestamps, configures compression policies, and manages continuous aggregates.

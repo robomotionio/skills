@@ -1,8 +1,19 @@
 ---
-name: "powerpoint365"
-description: "Microsoft PowerPoint 365 — create presentations from templates, replace text/images, duplicate slides, and export to PDF. Supports AI-powered presentation generation workflows via `robomotion powerpoint365`. Do NOT use for Google Slides, Keynote, or local PowerPoint files."
+name: powerpoint365
+description: Microsoft PowerPoint 365 — create presentations from templates, replace
+  text/images, duplicate slides, and export to PDF. Supports AI-powered presentation
+  generation workflows via `robomotion powerpoint365`. Do NOT use for Google Slides,
+  Keynote, or local PowerPoint files.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- microsoft
+- powerpoint
+- presentation
+- office365
+- slides
 ---
-
 # Microsoft PowerPoint 365
 
 The `robomotion powerpoint365` CLI connects to Microsoft PowerPoint 365 via the Graph API for presentation management. It creates presentations from templates, replaces text and images in slides, duplicates slides, manages slide content, and exports to PDF — ideal for automated presentation generation.

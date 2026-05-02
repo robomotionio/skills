@@ -1,8 +1,17 @@
 ---
-name: "mongodb"
-description: "MongoDB — query, insert, update, delete, and aggregate documents in MongoDB collections. Supports CRUD operations, aggregation pipelines, and collection management via `robomotion mongodb`. Do NOT use for PostgreSQL, MySQL, Redis, or other databases."
+name: mongodb
+description: MongoDB — query, insert, update, delete, and aggregate documents in MongoDB
+  collections. Supports CRUD operations, aggregation pipelines, and collection management
+  via `robomotion mongodb`. Do NOT use for PostgreSQL, MySQL, Redis, or other databases.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- database
+- mongodb
+- nosql
+- document-db
 ---
-
 # MongoDB
 
 The `robomotion mongodb` CLI connects to MongoDB for document database operations. It supports finding, inserting, updating, and deleting documents; running aggregation pipelines; and managing collections.

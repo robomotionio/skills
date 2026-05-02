@@ -1,8 +1,19 @@
 ---
-name: "dropcontact"
-description: "Dropcontact data enrichment — enrich and verify contact information including emails, phone numbers, and company data. Supports single and batch enrichment via `robomotion dropcontact`. Do NOT use for Apollo, Clearbit, Hunter.io, or other enrichment services."
+name: dropcontact
+description: Dropcontact data enrichment — enrich and verify contact information including
+  emails, phone numbers, and company data. Supports single and batch enrichment via
+  `robomotion dropcontact`. Do NOT use for Apollo, Clearbit, Hunter.io, or other enrichment
+  services.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- enrichment
+- dropcontact
+- contacts
+- email-verification
+- data
 ---
-
 # Dropcontact
 
 The `robomotion dropcontact` CLI connects to Dropcontact for contact data enrichment and verification. It enriches contacts with company information, verifies email deliverability, and finds professional email addresses.

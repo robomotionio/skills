@@ -1,8 +1,20 @@
 ---
-name: "microsoft-ad"
-description: "Active Directory — manage users, groups, organizational units, and group memberships. Supports LDAP-based user/group CRUD and OU management via `robomotion activedirectory`. Do NOT use for Azure AD/Entra ID, Okta, Auth0, or other identity providers."
+name: microsoft-ad
+description: Active Directory — manage users, groups, organizational units, and group
+  memberships. Supports LDAP-based user/group CRUD and OU management via `robomotion
+  activedirectory`. Do NOT use for Azure AD/Entra ID, Okta, Auth0, or other identity
+  providers.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- identity
+- active-directory
+- microsoft
+- ldap
+- users
+- groups
 ---
-
 # Active Directory
 
 The `robomotion activedirectory` CLI connects to on-premises Active Directory via LDAP for user and group management. It creates, reads, updates, and deletes users; manages groups and group memberships; and handles organizational unit operations.

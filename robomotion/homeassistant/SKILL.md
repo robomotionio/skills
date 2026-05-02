@@ -1,8 +1,19 @@
 ---
-name: "homeassistant"
-description: "Home Assistant — control smart home devices, call services, read states, manage automations, and monitor events. Supports device control, scene activation, and history queries via `robomotion homeassistant`. Do NOT use for AWS IoT, Google Home API, or other IoT platforms."
+name: homeassistant
+description: Home Assistant — control smart home devices, call services, read states,
+  manage automations, and monitor events. Supports device control, scene activation,
+  and history queries via `robomotion homeassistant`. Do NOT use for AWS IoT, Google
+  Home API, or other IoT platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- iot
+- homeassistant
+- smart-home
+- automation
+- devices
 ---
-
 # Home Assistant
 
 The `robomotion homeassistant` CLI connects to Home Assistant for smart home control and automation. It reads device states and sensor values, calls services (turn on/off, set temperature, etc.), activates scenes, fires events, and queries state history.

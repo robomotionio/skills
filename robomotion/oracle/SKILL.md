@@ -1,8 +1,18 @@
 ---
-name: "oracle"
-description: "Oracle Database — execute SQL queries, manage transactions, and perform CRUD operations. Supports SELECT, INSERT, UPDATE, DELETE, stored procedures, and batch transactions via `robomotion oracle`. Do NOT use for PostgreSQL, MySQL, MSSQL, or other databases."
+name: oracle
+description: Oracle Database — execute SQL queries, manage transactions, and perform
+  CRUD operations. Supports SELECT, INSERT, UPDATE, DELETE, stored procedures, and
+  batch transactions via `robomotion oracle`. Do NOT use for PostgreSQL, MySQL, MSSQL,
+  or other databases.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- database
+- oracle
+- sql
+- enterprise
 ---
-
 # Oracle Database
 
 The `robomotion oracle` CLI connects to Oracle databases for SQL operations. It executes queries and non-query statements, manages batch transactions, and handles the full range of Oracle SQL operations.

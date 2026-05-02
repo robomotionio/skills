@@ -1,8 +1,18 @@
 ---
-name: "qdrant"
-description: "Qdrant vector database — upsert, search, and manage vector embeddings with payload filtering. Supports collection management, similarity search, batch operations, and scroll queries via `robomotion qdrant`. Do NOT use for Pinecone, Weaviate, ChromaDB, or other vector databases."
+name: qdrant
+description: Qdrant vector database — upsert, search, and manage vector embeddings
+  with payload filtering. Supports collection management, similarity search, batch
+  operations, and scroll queries via `robomotion qdrant`. Do NOT use for Pinecone,
+  Weaviate, ChromaDB, or other vector databases.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- vector-db
+- qdrant
+- embeddings
+- similarity-search
 ---
-
 # Qdrant
 
 The `robomotion qdrant` CLI connects to Qdrant for vector database operations. It upserts, searches, scrolls, and deletes points; manages collections with configurable distance metrics; supports batch operations; and performs filtered similarity searches with payload conditions.

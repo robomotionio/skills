@@ -1,8 +1,17 @@
 ---
-name: "google-slides"
-description: "Google Slides — create presentations, add/manage/duplicate slides, replace text and images, and export to PDF. Supports template-based workflows via `robomotion googleslides`. Do NOT use for PowerPoint, Keynote, or other presentation tools."
+name: google-slides
+description: Google Slides — create presentations, add/manage/duplicate slides, replace
+  text and images, and export to PDF. Supports template-based workflows via `robomotion
+  googleslides`. Do NOT use for PowerPoint, Keynote, or other presentation tools.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- google
+- slides
+- presentation
+- productivity
 ---
-
 # Google Slides
 
 The `robomotion googleslides` CLI connects to Google Slides API for presentation management. It creates presentations, adds and duplicates slides, replaces text and images for template-based generation, and exports to PDF.

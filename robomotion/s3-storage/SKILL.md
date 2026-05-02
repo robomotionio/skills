@@ -1,8 +1,19 @@
 ---
-name: "s3-storage"
-description: "Amazon S3 — upload, download, list, delete, and manage objects in S3 buckets. Supports bucket management, presigned URLs, and multi-part uploads via `robomotion amazons3`. Do NOT use for Google Cloud Storage, Dropbox, OneDrive, or other storage services."
+name: s3-storage
+description: Amazon S3 — upload, download, list, delete, and manage objects in S3
+  buckets. Supports bucket management, presigned URLs, and multi-part uploads via
+  `robomotion amazons3`. Do NOT use for Google Cloud Storage, Dropbox, OneDrive, or
+  other storage services.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- aws
+- s3
+- storage
+- cloud
+- files
 ---
-
 # Amazon S3
 
 The `robomotion amazons3` CLI connects to Amazon S3 for object storage operations. It uploads, downloads, lists, copies, and deletes objects; manages buckets; generates presigned URLs; and handles file operations across S3 buckets.

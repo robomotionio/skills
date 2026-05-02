@@ -1,8 +1,18 @@
 ---
-name: "travisci"
-description: "Travis CI — manage builds, repositories, jobs, and build logs. Supports build triggering, status monitoring, and repository management via `robomotion travisci`. Do NOT use for GitHub Actions, Jenkins, CircleCI, or other CI/CD platforms."
+name: travisci
+description: Travis CI — manage builds, repositories, jobs, and build logs. Supports
+  build triggering, status monitoring, and repository management via `robomotion travisci`.
+  Do NOT use for GitHub Actions, Jenkins, CircleCI, or other CI/CD platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- ci-cd
+- travisci
+- builds
+- testing
+- automation
 ---
-
 # Travis CI
 
 The `robomotion travisci` CLI connects to Travis CI for build management and CI/CD operations. It lists and triggers builds, manages repositories, monitors job status, views build logs, and handles build lifecycle operations.

@@ -1,8 +1,18 @@
 ---
-name: "ssh"
-description: "SSH — execute remote commands and transfer files via SSH/SCP/SFTP. Supports command execution, file upload/download, and tunneling via `robomotion ssh`. Do NOT use for local shell commands, Ansible, or Terraform."
+name: ssh
+description: SSH — execute remote commands and transfer files via SSH/SCP/SFTP. Supports
+  command execution, file upload/download, and tunneling via `robomotion ssh`. Do
+  NOT use for local shell commands, Ansible, or Terraform.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- devops
+- ssh
+- remote
+- server
+- shell
 ---
-
 # SSH
 
 The `robomotion ssh` CLI connects to remote servers via SSH for command execution and file transfer. It runs commands on remote hosts, uploads and downloads files via SCP/SFTP, and manages SSH connections.

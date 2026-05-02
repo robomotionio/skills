@@ -1,8 +1,17 @@
 ---
-name: "google-docs"
-description: "Google Docs — create, read, and update documents in Google Docs. Supports document creation, content reading, and text operations via `robomotion googledocs`. Do NOT use for Microsoft Word, local files, or PDF processing."
+name: google-docs
+description: Google Docs — create, read, and update documents in Google Docs. Supports
+  document creation, content reading, and text operations via `robomotion googledocs`.
+  Do NOT use for Microsoft Word, local files, or PDF processing.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- google
+- docs
+- document
+- writing
 ---
-
 # Google Docs
 
 The `robomotion googledocs` CLI connects to Google Docs API for document management. It creates new documents, reads document content, and updates existing documents in Google Drive.

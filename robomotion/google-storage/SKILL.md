@@ -1,8 +1,19 @@
 ---
-name: "google-storage"
-description: "Google Cloud Storage — upload, download, list, delete, copy, and move objects in GCS buckets. Supports bucket management, signed URLs, and metadata operations via `robomotion googlestorage`. Do NOT use for S3, Dropbox, Google Drive, or local filesystem."
+name: google-storage
+description: Google Cloud Storage — upload, download, list, delete, copy, and move
+  objects in GCS buckets. Supports bucket management, signed URLs, and metadata operations
+  via `robomotion googlestorage`. Do NOT use for S3, Dropbox, Google Drive, or local
+  filesystem.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- google
+- gcs
+- storage
+- cloud
+- buckets
 ---
-
 # Google Cloud Storage
 
 The `robomotion googlestorage` CLI connects to Google Cloud Storage for object and bucket management. It uploads, downloads, lists, deletes, copies, and moves objects; creates and manages buckets; generates signed URLs; and reads object metadata.

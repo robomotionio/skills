@@ -1,8 +1,20 @@
 ---
-name: "teams365"
-description: "Microsoft Teams 365 — send messages, manage teams/channels/members, and handle channel conversations via Microsoft Graph API. Supports message threading, channel creation, and member management via `robomotion teams365`. Do NOT use for Slack, Discord, Telegram, or other messaging."
+name: teams365
+description: Microsoft Teams 365 — send messages, manage teams/channels/members, and
+  handle channel conversations via Microsoft Graph API. Supports message threading,
+  channel creation, and member management via `robomotion teams365`. Do NOT use for
+  Slack, Discord, Telegram, or other messaging.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- microsoft
+- teams
+- messaging
+- chat
+- office365
+- collaboration
 ---
-
 # Microsoft Teams 365
 
 The `robomotion teams365` CLI connects to Microsoft Teams via the Graph API for team collaboration. It sends and lists messages in channels, manages teams and channels, handles members and membership, and supports threaded conversations.

@@ -1,8 +1,19 @@
 ---
-name: "replicate-ai"
-description: "Replicate AI — run ML model predictions for image, video, text, and audio generation. Supports model execution, async predictions, streaming, and model management via `robomotion replicateai`. Do NOT use for OpenAI, Fal.ai, Stability AI, or other AI platforms."
+name: replicate-ai
+description: Replicate AI — run ML model predictions for image, video, text, and audio
+  generation. Supports model execution, async predictions, streaming, and model management
+  via `robomotion replicateai`. Do NOT use for OpenAI, Fal.ai, Stability AI, or other
+  AI platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- ai
+- replicate
+- models
+- inference
+- ml
 ---
-
 # Replicate AI
 
 The `robomotion replicateai` CLI runs AI model predictions on Replicate's cloud infrastructure. It supports running models synchronously or asynchronously, streaming predictions, listing and searching models, and managing prediction lifecycle.

@@ -1,8 +1,19 @@
 ---
-name: "perplexity"
-description: "Perplexity AI — AI-powered search and chat with real-time web data and citations. Supports web-grounded responses and conversational search via `robomotion perplexity`. Do NOT use for OpenAI, Claude, Google Search, Tavily, or other AI/search services."
+name: perplexity
+description: Perplexity AI — AI-powered search and chat with real-time web data and
+  citations. Supports web-grounded responses and conversational search via `robomotion
+  perplexity`. Do NOT use for OpenAI, Claude, Google Search, Tavily, or other AI/search
+  services.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- ai
+- perplexity
+- search
+- chat
+- web-data
 ---
-
 # Perplexity AI
 
 The `robomotion perplexity` CLI connects to Perplexity AI for search-augmented AI responses. It provides chat completions grounded in real-time web data with source citations, combining LLM reasoning with live search results.

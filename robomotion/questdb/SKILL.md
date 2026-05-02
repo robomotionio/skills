@@ -1,8 +1,18 @@
 ---
-name: "questdb"
-description: "QuestDB time-series database — execute SQL queries and insert time-series data. Supports high-performance ingestion and time-based analytics via `robomotion questdb`. Do NOT use for TimescaleDB, InfluxDB, or other time-series databases."
+name: questdb
+description: QuestDB time-series database — execute SQL queries and insert time-series
+  data. Supports high-performance ingestion and time-based analytics via `robomotion
+  questdb`. Do NOT use for TimescaleDB, InfluxDB, or other time-series databases.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- database
+- questdb
+- time-series
+- sql
+- analytics
 ---
-
 # QuestDB
 
 The `robomotion questdb` CLI connects to QuestDB for time-series database operations. It executes SQL queries optimized for time-series data, inserts records with timestamps, and manages connections to QuestDB instances.

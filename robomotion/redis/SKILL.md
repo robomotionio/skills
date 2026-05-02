@@ -1,8 +1,19 @@
 ---
-name: "redis"
-description: "Redis — perform key-value operations on strings, hashes, lists, sets, and pub/sub channels. Supports TTL, pattern matching, and all core Redis data structures via `robomotion redis`. Do NOT use for PostgreSQL, MongoDB, Memcached, or other databases."
+name: redis
+description: Redis — perform key-value operations on strings, hashes, lists, sets,
+  and pub/sub channels. Supports TTL, pattern matching, and all core Redis data structures
+  via `robomotion redis`. Do NOT use for PostgreSQL, MongoDB, Memcached, or other
+  databases.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- database
+- redis
+- cache
+- key-value
+- pub-sub
 ---
-
 # Redis
 
 The `robomotion redis` CLI connects to Redis for key-value and data structure operations. It supports strings (get/set with TTL), hashes (hset/hget/hgetall), lists (push/pop/range), sets (add/remove/members), key management (exists/expire/keys), and pub/sub messaging.

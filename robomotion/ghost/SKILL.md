@@ -1,8 +1,19 @@
 ---
-name: "ghost"
-description: "Ghost CMS — manage posts, pages, tags, members, tiers, newsletters, and offers on Ghost-powered sites. Supports content publishing, membership management, and newsletter configuration via `robomotion ghost`. Do NOT use for WordPress, Medium, or other CMS platforms."
+name: ghost
+description: Ghost CMS — manage posts, pages, tags, members, tiers, newsletters, and
+  offers on Ghost-powered sites. Supports content publishing, membership management,
+  and newsletter configuration via `robomotion ghost`. Do NOT use for WordPress, Medium,
+  or other CMS platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- cms
+- ghost
+- blog
+- publishing
+- content
 ---
-
 # Ghost
 
 The `robomotion ghost` CLI connects to Ghost CMS for content and membership management. It handles creating/updating/deleting posts and pages, managing tags, administering members and tiers, configuring newsletters, and managing offers — covering both content publishing and subscription operations.

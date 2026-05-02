@@ -1,8 +1,18 @@
 ---
-name: "dropbox"
-description: "Dropbox cloud storage — upload, download, copy, move, delete, search, and share files. Supports folder management, file metadata, and shareable link creation via `robomotion dropbox`. Do NOT use for Google Drive, S3, OneDrive, or local filesystem operations."
+name: dropbox
+description: Dropbox cloud storage — upload, download, copy, move, delete, search,
+  and share files. Supports folder management, file metadata, and shareable link creation
+  via `robomotion dropbox`. Do NOT use for Google Drive, S3, OneDrive, or local filesystem
+  operations.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- storage
+- dropbox
+- cloud
+- files
 ---
-
 # Dropbox
 
 The `robomotion dropbox` CLI manages files and folders in Dropbox. It supports uploading, downloading, copying, moving, deleting files; creating folders; searching by name/content; getting file metadata; and generating shareable links.

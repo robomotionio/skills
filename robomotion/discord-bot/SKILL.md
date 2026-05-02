@@ -1,8 +1,18 @@
 ---
-name: "discord-bot"
-description: "Discord bot — send messages, manage channels, handle roles, and interact with Discord servers. Supports message sending, channel management, and server administration via `robomotion discordbot`. Do NOT use for Slack, Teams, Telegram, or other messaging platforms."
+name: discord-bot
+description: Discord bot — send messages, manage channels, handle roles, and interact
+  with Discord servers. Supports message sending, channel management, and server administration
+  via `robomotion discordbot`. Do NOT use for Slack, Teams, Telegram, or other messaging
+  platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- messaging
+- discord
+- bot
+- chat
 ---
-
 # Discord Bot
 
 The `robomotion discordbot` CLI operates a Discord bot to send messages, manage channels and roles, and interact with Discord servers. It supports posting messages, listing channels/members, and performing server administration tasks.

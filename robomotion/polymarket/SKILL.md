@@ -1,8 +1,19 @@
 ---
-name: "polymarket"
-description: "Polymarket prediction markets — access market data, event details, pricing, orderbooks, positions, and trading analytics. Supports market research and position tracking via `robomotion polymarket`. Do NOT use for Binance, stock trading, or other financial platforms."
+name: polymarket
+description: Polymarket prediction markets — access market data, event details, pricing,
+  orderbooks, positions, and trading analytics. Supports market research and position
+  tracking via `robomotion polymarket`. Do NOT use for Binance, stock trading, or
+  other financial platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- prediction
+- polymarket
+- markets
+- data
+- analytics
 ---
-
 # Polymarket
 
 The `robomotion polymarket` CLI connects to Polymarket for prediction market data and analytics. It retrieves market listings, event details, current pricing/probabilities, orderbook depth, positions, trades, and spread analytics.

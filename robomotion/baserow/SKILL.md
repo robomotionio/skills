@@ -1,8 +1,19 @@
 ---
-name: "baserow"
-description: "Baserow open-source database — manage rows, tables, and fields in self-hosted or cloud Baserow instances. Supports CRUD, filtering, sorting, search, and field listing via `robomotion baserow`. Do NOT use for Airtable, NocoDB, Google Sheets, or other no-code databases."
+name: baserow
+description: Baserow open-source database — manage rows, tables, and fields in self-hosted
+  or cloud Baserow instances. Supports CRUD, filtering, sorting, search, and field
+  listing via `robomotion baserow`. Do NOT use for Airtable, NocoDB, Google Sheets,
+  or other no-code databases.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- database
+- baserow
+- no-code
+- open-source
+- tables
 ---
-
 # Baserow
 
 The `robomotion baserow` CLI connects to Baserow (open-source Airtable alternative) for row and table management. It supports listing rows with filtering/sorting/search, single-row CRUD, and field schema inspection on any self-hosted or cloud Baserow instance.

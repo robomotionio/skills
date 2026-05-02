@@ -1,8 +1,19 @@
 ---
-name: "instantly"
-description: "Instantly cold email platform — manage campaigns, leads, email accounts, and track analytics. Supports lead import, campaign management, and deliverability monitoring via `robomotion instantly`. Do NOT use for Lemlist, Mailchimp, Gmail, or other email platforms."
+name: instantly
+description: Instantly cold email platform — manage campaigns, leads, email accounts,
+  and track analytics. Supports lead import, campaign management, and deliverability
+  monitoring via `robomotion instantly`. Do NOT use for Lemlist, Mailchimp, Gmail,
+  or other email platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- email
+- instantly
+- cold-email
+- outreach
+- campaigns
 ---
-
 # Instantly
 
 The `robomotion instantly` CLI connects to Instantly for cold email outreach management. It manages campaigns (create/update/activate/pause), imports and manages leads, tracks email analytics and sending stats, and handles email account configuration.

@@ -1,8 +1,19 @@
 ---
-name: "leonardo-ai"
-description: "Leonardo AI image generation — create images, upscale, remove backgrounds, and manage generation jobs. Supports multiple AI models and style presets via `robomotion leonardoai`. Do NOT use for DALL-E, Stability AI, Midjourney, or other image generation services."
+name: leonardo-ai
+description: Leonardo AI image generation — create images, upscale, remove backgrounds,
+  and manage generation jobs. Supports multiple AI models and style presets via `robomotion
+  leonardoai`. Do NOT use for DALL-E, Stability AI, Midjourney, or other image generation
+  services.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- ai
+- leonardo-ai
+- image-generation
+- art
+- creative
 ---
-
 # Leonardo AI
 
 The `robomotion leonardoai` CLI connects to Leonardo AI for AI-powered image generation and editing. It generates images from text prompts, upscales images, removes backgrounds, manages generation jobs, and supports various AI models and style presets.

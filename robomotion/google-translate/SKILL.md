@@ -1,8 +1,18 @@
 ---
-name: "google-translate"
-description: "Google Translate — translate text between languages using Google Cloud Translation API. Supports language detection and 100+ languages via `robomotion googletranslate`. Do NOT use for OpenAI, Claude, DeepL, or other translation services."
+name: google-translate
+description: Google Translate — translate text between languages using Google Cloud
+  Translation API. Supports language detection and 100+ languages via `robomotion
+  googletranslate`. Do NOT use for OpenAI, Claude, DeepL, or other translation services.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- google
+- translate
+- language
+- ai
+- localization
 ---
-
 # Google Translate
 
 The `robomotion googletranslate` CLI connects to Google Cloud Translation API for text translation between 100+ languages with automatic language detection.

@@ -1,8 +1,19 @@
 ---
-name: "excel365"
-description: "Microsoft Excel 365 — read, write, and manage workbooks, worksheets, tables, ranges, cells, rows, columns, and formulas in OneDrive/SharePoint. Full spreadsheet operations via `robomotion excel365`. Do NOT use for Google Sheets, local Excel files, or CSV processing."
+name: excel365
+description: Microsoft Excel 365 — read, write, and manage workbooks, worksheets,
+  tables, ranges, cells, rows, columns, and formulas in OneDrive/SharePoint. Full
+  spreadsheet operations via `robomotion excel365`. Do NOT use for Google Sheets,
+  local Excel files, or CSV processing.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- microsoft
+- excel
+- spreadsheet
+- office365
+- data
 ---
-
 # Microsoft Excel 365
 
 The `robomotion excel365` CLI connects to Microsoft Excel 365 via the Graph API for full spreadsheet operations. It manages workbooks in OneDrive/SharePoint — reading and writing ranges, cells, rows, columns; managing worksheets and tables; handling formulas and hyperlinks; and supporting append, clear, and delete operations.

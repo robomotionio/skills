@@ -1,8 +1,18 @@
 ---
-name: "wordpress"
-description: "WordPress — manage posts, pages, categories, tags, media, users, and comments. Supports content publishing, media uploads, and site administration via `robomotion wordpress`. Do NOT use for Ghost, Medium, or other CMS platforms."
+name: wordpress
+description: WordPress — manage posts, pages, categories, tags, media, users, and
+  comments. Supports content publishing, media uploads, and site administration via
+  `robomotion wordpress`. Do NOT use for Ghost, Medium, or other CMS platforms.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- cms
+- wordpress
+- blog
+- content
+- publishing
 ---
-
 # WordPress
 
 The `robomotion wordpress` CLI connects to WordPress sites via the REST API for content management. It creates and manages posts and pages, handles categories and tags, uploads media, and administers users and comments.

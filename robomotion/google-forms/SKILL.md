@@ -1,8 +1,18 @@
 ---
-name: "google-forms"
-description: "Google Forms — create forms, manage questions, and retrieve responses. Supports form creation, question management, and response collection via `robomotion googleforms`. Do NOT use for Typeform, SurveyMonkey, or other form builders."
+name: google-forms
+description: Google Forms — create forms, manage questions, and retrieve responses.
+  Supports form creation, question management, and response collection via `robomotion
+  googleforms`. Do NOT use for Typeform, SurveyMonkey, or other form builders.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- google
+- forms
+- survey
+- responses
+- productivity
 ---
-
 # Google Forms
 
 The `robomotion googleforms` CLI connects to Google Forms API for form and response management. It creates forms, adds and manages questions, retrieves form submissions, and lists available forms.

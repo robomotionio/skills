@@ -1,8 +1,19 @@
 ---
-name: "docusign"
-description: "DocuSign eSignature — send documents for signing, manage envelopes and templates, track recipients. Supports envelope creation, status tracking, and document download via `robomotion docusign`. Do NOT use for Adobe Sign, HelloSign, PandaDoc, or other e-signature tools."
+name: docusign
+description: DocuSign eSignature — send documents for signing, manage envelopes and
+  templates, track recipients. Supports envelope creation, status tracking, and document
+  download via `robomotion docusign`. Do NOT use for Adobe Sign, HelloSign, PandaDoc,
+  or other e-signature tools.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- document
+- docusign
+- esignature
+- contracts
+- signing
 ---
-
 # DocuSign
 
 The `robomotion docusign` CLI connects to DocuSign's eSignature API to send documents for electronic signing, manage envelopes and templates, track recipient status, and download completed documents.

@@ -1,8 +1,18 @@
 ---
-name: "pinecone"
-description: "Pinecone vector database — upsert, query, and manage vector embeddings in Pinecone indexes. Supports similarity search, namespace management, and index operations via `robomotion pinecone`. Do NOT use for Qdrant, Weaviate, ChromaDB, or other vector databases."
+name: pinecone
+description: Pinecone vector database — upsert, query, and manage vector embeddings
+  in Pinecone indexes. Supports similarity search, namespace management, and index
+  operations via `robomotion pinecone`. Do NOT use for Qdrant, Weaviate, ChromaDB,
+  or other vector databases.
+version: 1.0.0
+author: robomotion
+license: Apache-2.0
+tags:
+- vector-db
+- pinecone
+- embeddings
+- similarity-search
 ---
-
 # Pinecone
 
 The `robomotion pinecone` CLI connects to Pinecone for vector database operations. It upserts, queries, fetches, and deletes vectors; manages indexes and namespaces; and performs similarity searches with metadata filtering.
