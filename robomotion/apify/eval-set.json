@@ -20,6 +20,18 @@
       "expect_triggered": true
     },
     {
+      "id": "trigger-pos-4",
+      "type": "trigger",
+      "query": "run the Xquik Apify Actor to search X posts",
+      "expect_triggered": true
+    },
+    {
+      "id": "trigger-pos-5",
+      "type": "trigger",
+      "query": "collect 20 followers with xquik/x-follower-scraper through robomotion",
+      "expect_triggered": true
+    },
+    {
       "id": "trigger-neg-1",
       "type": "trigger",
       "query": "parse this HTML file locally",
@@ -51,6 +63,28 @@
         "Uses robomotion apify run_actor or similar command",
         "Specifies the actor or target URL",
         "Configures extraction parameters"
+      ]
+    },
+    {
+      "id": "quality-2",
+      "type": "quality",
+      "query": "use the Xquik tweet Actor to find 20 English posts about AI",
+      "criteria": [
+        "Uses actor ID xquik/x-tweet-scraper",
+        "Uses search mode with an English-language search term",
+        "Sets maxItems to 20",
+        "Checks current Store pricing before a paid run"
+      ]
+    },
+    {
+      "id": "quality-3",
+      "type": "quality",
+      "query": "use the Xquik follower Actor to collect 20 followers of nasa",
+      "criteria": [
+        "Uses actor ID xquik/x-follower-scraper",
+        "Uses the followers relation for nasa",
+        "Sets maxItems and maxItemsPerTarget to 20",
+        "Checks current Store pricing before a paid run"
       ]
     }
   ]
